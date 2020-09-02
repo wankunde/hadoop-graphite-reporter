@@ -23,7 +23,7 @@ public class NameNodeCollector extends JmxCollector {
       JSONObject bean = beans.getJSONObject(i);
       String name = bean.getString("name");
       String host = bean.getString("tag.Hostname");
-      if (name.startsWith("Hadoop:service=NameNode,name=FSNamesystem")) {
+      if (name.equals("Hadoop:service=NameNode,name=FSNamesystem")) {
         String[] keys = {
             "BlocksTotal",
             "MissingBlocks",
@@ -65,7 +65,7 @@ public class NameNodeCollector extends JmxCollector {
           }
         }
 
-      } else if (name.startsWith("Hadoop:service=NameNode,name=NameNodeInfo")) {
+      } else if (name.equals("Hadoop:service=NameNode,name=NameNodeInfo")) {
         String[] keys = {
             "TotalBlocks",
             "Used",
@@ -107,7 +107,7 @@ public class NameNodeCollector extends JmxCollector {
         for (String key : keys) {
           metrics.gauge(name("RpcActivity", host, port, key), () -> () -> bean.get(key));
         }
-      } else if (name.startsWith("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020")) {
+      } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020")) {
         String[] keys = {
             "GetBlockLocationsNumOps",
             "GetBlockLocationsAvgTime",
@@ -169,7 +169,7 @@ public class NameNodeCollector extends JmxCollector {
         for (String key : keys) {
           metrics.gauge(name("RpcDetailedActivityForPort8020", host, key), () -> () -> bean.get(key));
         }
-      } else if (name.startsWith("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8022")) {
+      } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8022")) {
         String[] keys = {
             "RollEditLogNumOps",
             "RollEditLogAvgTime",
@@ -246,7 +246,7 @@ public class NameNodeCollector extends JmxCollector {
         for (String key : keys) {
           metrics.gauge(name("NameNodeActivity", host, key), () -> () -> bean.get(key));
         }
-      } else if (name.startsWith("Hadoop:service=NameNode,name=FSNamesystemState")) {
+      } else if (name.equals("Hadoop:service=NameNode,name=FSNamesystemState")) {
         String[] keys = {
             "BlocksTotal",
             "UnderReplicatedBlocks",
