@@ -2,6 +2,7 @@ package com.wankun.hadoop.reporter;
 
 import static com.wankun.hadoop.reporter.Configuration.*;
 
+import com.codahale.metrics.ConsoleReporter;
 import com.codahale.metrics.graphite.Graphite;
 import com.codahale.metrics.graphite.GraphiteReporter;
 import com.codahale.metrics.graphite.PickledGraphite;
@@ -21,9 +22,9 @@ public class HadoopGraphiteReporter {
         .scheduleWithFixedDelay(new ServiceDiscovery(registry), 0, period, TimeUnit.SECONDS);
 
     // for debug
-//    ConsoleReporter reporter = ConsoleReporter.forRegistry(metrics).build();
+    ConsoleReporter reporter = ConsoleReporter.forRegistry(registry).build();
 
-    GraphiteReporter reporter;
+    /*GraphiteReporter reporter;
     if (usePickled) {
       final PickledGraphite pickledGraphite = new PickledGraphite(new InetSocketAddress(graphiteHost, graphitePort));
       reporter = GraphiteReporter.forRegistry(registry)
@@ -34,7 +35,7 @@ public class HadoopGraphiteReporter {
       reporter = GraphiteReporter.forRegistry(registry)
           .prefixedWith(graphitePrefix)
           .build(graphite);
-    }
+    }*/
 
     reporter.start(period, TimeUnit.SECONDS);
   }

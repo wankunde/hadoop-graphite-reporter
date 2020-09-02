@@ -6,8 +6,10 @@ import static com.wankun.hadoop.reporter.util.SinkUtil.name;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.codahale.metrics.MetricRegistry;
 import com.wankun.hadoop.reporter.util.HttpClientUtil;
+import com.wankun.hadoop.reporter.util.JsonUtil;
 
 import java.io.IOException;
 import java.util.Set;
@@ -33,8 +35,9 @@ public abstract class JmxCollector implements Runnable {
   @Override
   public void run() {
     try {
-      String response = HttpClientUtil.httpGetRequest(url);
-      JSONArray beans = JSON.parseObject(response).getJSONArray("beans");
+//      String response = HttpClientUtil.httpGetRequest(url);
+      JSONObject testData = JsonUtil.readJsonObject("test.json");
+      JSONArray beans = testData.getJSONArray("beans");
 
       MetricRegistry collectMetrics = collect(beans);
       // update last fetch time

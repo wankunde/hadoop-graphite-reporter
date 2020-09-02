@@ -1,0 +1,1318 @@
+{
+  "beans" : [ {
+    "name" : "Hadoop:service=NameNode,name=JvmMetrics",
+    "modelerType" : "JvmMetrics",
+    "tag.Context" : "jvm",
+    "tag.ProcessName" : "NameNode",
+    "tag.SessionId" : null,
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "MemNonHeapUsedM" : 125.30254,
+    "MemNonHeapCommittedM" : 127.32422,
+    "MemNonHeapMaxM" : -1.0,
+    "MemHeapUsedM" : 4898.5405,
+    "MemHeapCommittedM" : 16275.875,
+    "MemHeapMaxM" : 16275.875,
+    "MemMaxM" : 16275.875,
+    "GcCountParNew" : 161796,
+    "GcTimeMillisParNew" : 4037491,
+    "GcCountConcurrentMarkSweep" : 75,
+    "GcTimeMillisConcurrentMarkSweep" : 5308,
+    "GcCount" : 161871,
+    "GcTimeMillis" : 4042799,
+    "GcNumWarnThresholdExceeded" : 0,
+    "GcNumInfoThresholdExceeded" : 0,
+    "GcTotalExtraSleepTime" : 204252,
+    "ThreadsNew" : 0,
+    "ThreadsRunnable" : 13,
+    "ThreadsBlocked" : 0,
+    "ThreadsWaiting" : 10,
+    "ThreadsTimedWaiting" : 279,
+    "ThreadsTerminated" : 0,
+    "LogFatal" : 0,
+    "LogError" : 36,
+    "LogWarn" : 87482138,
+    "LogInfo" : 2791852866
+  }, {
+    "name" : "JMImplementation:type=MBeanServerDelegate",
+    "modelerType" : "javax.management.MBeanServerDelegate",
+    "MBeanServerId" : "pre-zboffline-002.pre.leyantech.com_1596792471977",
+    "SpecificationName" : "Java Management Extensions",
+    "SpecificationVersion" : "1.4",
+    "SpecificationVendor" : "Oracle Corporation",
+    "ImplementationName" : "JMX",
+    "ImplementationVersion" : "1.8.0_191-b12",
+    "ImplementationVendor" : "Oracle Corporation"
+  }, {
+    "name" : "java.lang:type=Runtime",
+    "modelerType" : "sun.management.RuntimeImpl",
+    "Name" : "2609@pre-zboffline-002.pre.leyantech.com",
+    "ClassPath" : "/run/cloudera-scm-agent/process/5939-hdfs-NAMENODE:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jasper-compiler-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-framework-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/hue-plugins-3.9.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-beanutils-1.9.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-beanutils-core-1.8.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/slf4j-api-1.7.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/apacheds-i18n-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/httpclient-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/java-xmlbuilder-0.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-net-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/api-asn1-api-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/gson-2.2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-httpclient-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-math3-3.1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/logredactor-1.0.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/httpcore-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/mockito-all-1.8.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/api-util-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-client-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-digester-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-recipes-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-configuration-1.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jets3t-0.9.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsch-0.1.42.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/azure-data-lake-store-sdk-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/aws-java-sdk-bundle-1.11.134.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/snappy-java-1.0.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/slf4j-log4j12.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-aws-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-annotations.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-scrooge_2.10.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-column.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-nfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-nfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-test-hadoop2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-protobuf.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-tools.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-thrift.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-cascading.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-jackson.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-hadoop.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-encoding.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-annotations-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-pig-bundle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-scala_2.10.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-azure-datalake-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-auth.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-auth-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-generator.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-hadoop-bundle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-azure-datalake.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-aws.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format-sources.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-pig.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format-javadoc.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xercesImpl-2.9.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-daemon-1.0.13.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xml-apis-1.3.04.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-nfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-nfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/aopalliance-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/javax.inject-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-guice-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jline-2.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guice-servlet-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/spark-yarn-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guice-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/spark-1.6.0-cdh5.13.3-yarn-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-client-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-client.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-api.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-registry.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-registry-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-api-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-tests-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-client-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/aopalliance-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/javax.inject-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-guice-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/guice-servlet-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/guice-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-ant.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-sls.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-datajoin.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jasper-compiler-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-sls-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-core-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-framework-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-datajoin-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-annotations-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-beanutils-1.9.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-beanutils-core-1.8.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archive-logs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//okhttp-2.4.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-azure.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-gridmix.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-openstack-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//apacheds-i18n-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-rumen.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archives.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//httpclient-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//java-xmlbuilder-0.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archive-logs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-net-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//api-asn1-api-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//gson-2.2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-extras.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-httpclient-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archives-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-math3-3.1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-distcp.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-rumen-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-databind-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//httpcore-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-extras-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-auth.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//mockito-all-1.8.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-auth-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//api-util-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-client-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-streaming-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//microsoft-windowsazure-storage-sdk-0.6.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-digester-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-gridmix-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-distcp-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-recipes-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//apacheds-kerberos-codec-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-configuration-1.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//okio-1.4.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//metrics-core-3.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-ant-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-streaming.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jets3t-0.9.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsch-0.1.42.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-openstack.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-azure-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//snappy-java-1.0.4.1.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.13.3.jar:/usr/share/cmf/lib/plugins/event-publish-5.13.3-shaded.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.12.3-shaded.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/curator-x-discovery-2.11.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/sentry-hdfs-1.5.1-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/sentry-hdfs.jar",
+    "BootClassPath" : "/usr/java/jdk1.8.0_191-amd64/jre/lib/resources.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/rt.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jsse.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jce.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/charsets.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jfr.jar:/usr/java/jdk1.8.0_191-amd64/jre/classes",
+    "LibraryPath" : "/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/native",
+    "Uptime" : 2254542478,
+    "VmName" : "Java HotSpot(TM) 64-Bit Server VM",
+    "VmVendor" : "Oracle Corporation",
+    "VmVersion" : "25.191-b12",
+    "BootClassPathSupported" : true,
+    "InputArguments" : [ "-Dproc_namenode", "-Xmx1000m", "-Dhdfs.audit.logger=INFO,RFAAUDIT", "-Dsecurity.audit.logger=INFO,RFAS", "-Djava.net.preferIPv4Stack=true", "-Dhadoop.log.dir=/var/log/hadoop-hdfs", "-Dhadoop.log.file=hadoop-cmf-hdfs-NAMENODE-pre-zboffline-002.pre.leyantech.com.log.out", "-Dhadoop.home.dir=/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop", "-Dhadoop.id.str=hdfs", "-Dhadoop.root.logger=INFO,RFA", "-Djava.library.path=/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/native", "-Dhadoop.policy.file=hadoop-policy.xml", "-Djava.net.preferIPv4Stack=true", "-Xms17179869184", "-Xmx17179869184", "-XX:+UseParNewGC", "-XX:+UseConcMarkSweepGC", "-XX:CMSInitiatingOccupancyFraction=70", "-XX:+CMSParallelRemarkEnabled", "-XX:+HeapDumpOnOutOfMemoryError", "-XX:HeapDumpPath=/tmp/hdfs_hdfs-NAMENODE-a234775054dee501b9142e41ef40e8b4_pid2609.hprof", "-XX:OnOutOfMemoryError=/usr/lib64/cmf/service/common/killparent.sh", "-Dhadoop.security.logger=INFO,RFAS" ],
+    "ManagementSpecVersion" : "1.2",
+    "SpecName" : "Java Virtual Machine Specification",
+    "SpecVendor" : "Oracle Corporation",
+    "SpecVersion" : "1.8",
+    "SystemProperties" : [ {
+      "key" : "awt.toolkit",
+      "value" : "sun.awt.X11.XToolkit"
+    }, {
+      "key" : "file.encoding.pkg",
+      "value" : "sun.io"
+    }, {
+      "key" : "java.specification.version",
+      "value" : "1.8"
+    }, {
+      "key" : "sun.cpu.isalist",
+      "value" : ""
+    }, {
+      "key" : "sun.jnu.encoding",
+      "value" : "UTF-8"
+    }, {
+      "key" : "java.class.path",
+      "value" : "/run/cloudera-scm-agent/process/5939-hdfs-NAMENODE:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jasper-compiler-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-framework-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/hue-plugins-3.9.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-beanutils-1.9.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-beanutils-core-1.8.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/slf4j-api-1.7.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/apacheds-i18n-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/httpclient-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/java-xmlbuilder-0.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-net-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/api-asn1-api-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/gson-2.2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-httpclient-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-math3-3.1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/logredactor-1.0.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/httpcore-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/mockito-all-1.8.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/api-util-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-client-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-digester-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/curator-recipes-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-configuration-1.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jets3t-0.9.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsch-0.1.42.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/azure-data-lake-store-sdk-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/aws-java-sdk-bundle-1.11.134.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/snappy-java-1.0.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/slf4j-log4j12.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-aws-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-annotations.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-scrooge_2.10.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-column.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-nfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-nfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-test-hadoop2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-protobuf.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-tools.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-thrift.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-cascading.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-jackson.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-hadoop.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-encoding.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-annotations-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-pig-bundle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-scala_2.10.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-azure-datalake-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-auth.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-auth-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-generator.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-hadoop-bundle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-azure-datalake.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//hadoop-aws.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format-sources.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-pig.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format-javadoc.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/.//parquet-format.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xercesImpl-2.9.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-daemon-1.0.13.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/xml-apis-1.3.04.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-nfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-nfs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-hdfs/.//hadoop-hdfs-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/aopalliance-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/javax.inject-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-guice-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jline-2.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guice-servlet-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/spark-yarn-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/guice-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/spark-1.6.0-cdh5.13.3-yarn-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-client-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-client.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-api.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-registry.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-registry-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-api-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-server-tests-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-client-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/aopalliance-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/javax.inject-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-guice-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/guice-servlet-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/guice-3.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/leveldbjni-all-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/netty-3.10.5.Final.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-ant.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-sls.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//xmlenc-0.52.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.3-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hamcrest-core-1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-datajoin.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jasper-compiler-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-sls-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-core-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jetty-util-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-framework-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-datajoin-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//guava-11.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsp-api-2.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-annotations-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-beanutils-1.9.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//avro.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//stax-api-1.0-2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-beanutils-core-1.8.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//protobuf-java-2.5.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archive-logs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//junit-4.11.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//okhttp-2.4.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-azure.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jetty-6.1.26.cloudera.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-codec-1.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jaxb-api-2.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-gridmix.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//paranamer-2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-openstack-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//apacheds-i18n-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-rumen.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archives.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-logging-1.1.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//httpclient-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//activation-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//log4j-1.2.17.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-el-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//java-xmlbuilder-0.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-collections-3.2.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archive-logs.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-net-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-compress-1.4.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//xz-1.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jasper-runtime-5.5.23.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//api-asn1-api-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-io-2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//gson-2.2.4.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-extras.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-httpclient-3.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-lang-2.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//asm-3.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-archives-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-math3-3.1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-jaxrs-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-distcp.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-json-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-rumen-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-core-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-databind-2.2.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//httpcore-4.2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-extras-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//htrace-core4-4.0.1-incubating.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-auth.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//mockito-all-1.8.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-auth-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//api-util-1.0.0-M20.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-tests.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-xc-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//zookeeper.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-client-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-streaming-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jackson-mapper-asl-1.8.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//microsoft-windowsazure-storage-sdk-0.6.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-digester-1.8.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-gridmix-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-distcp-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//curator-recipes-2.7.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//apacheds-kerberos-codec-2.0.0-M15.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-configuration-1.6.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//okio-1.4.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//metrics-core-3.0.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-ant-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jaxb-impl-2.2.3-1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-streaming.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//commons-cli-1.2.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jets3t-0.9.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsch-0.1.42.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jettison-1.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-server-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//servlet-api-2.5.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jsr305-3.0.0.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-openstack.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//jersey-core-1.9.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//hadoop-azure-2.6.0-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop-mapreduce/.//snappy-java-1.0.4.1.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.13.3.jar:/usr/share/cmf/lib/plugins/event-publish-5.13.3-shaded.jar:/usr/share/cmf/lib/plugins/navigator/cdh57/audit-plugin-cdh57-2.12.3-shaded.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/curator-x-discovery-2.11.1.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/sentry-hdfs-1.5.1-cdh5.13.3.jar:/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/sentry/lib/plugins/sentry-hdfs.jar"
+    }, {
+      "key" : "security.audit.logger",
+      "value" : "INFO,RFAS"
+    }, {
+      "key" : "java.vm.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "sun.arch.data.model",
+      "value" : "64"
+    }, {
+      "key" : "java.vendor.url",
+      "value" : "http://java.oracle.com/"
+    }, {
+      "key" : "user.timezone",
+      "value" : "Asia/Shanghai"
+    }, {
+      "key" : "os.name",
+      "value" : "Linux"
+    }, {
+      "key" : "java.vm.specification.version",
+      "value" : "1.8"
+    }, {
+      "key" : "user.country",
+      "value" : "US"
+    }, {
+      "key" : "sun.java.launcher",
+      "value" : "SUN_STANDARD"
+    }, {
+      "key" : "sun.boot.library.path",
+      "value" : "/usr/java/jdk1.8.0_191-amd64/jre/lib/amd64"
+    }, {
+      "key" : "sun.java.command",
+      "value" : "org.apache.hadoop.hdfs.server.namenode.NameNode"
+    }, {
+      "key" : "hdfs.audit.logger",
+      "value" : "INFO,RFAAUDIT"
+    }, {
+      "key" : "sun.cpu.endian",
+      "value" : "little"
+    }, {
+      "key" : "user.home",
+      "value" : "/home/dhfs"
+    }, {
+      "key" : "user.language",
+      "value" : "en"
+    }, {
+      "key" : "java.specification.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.home",
+      "value" : "/usr/java/jdk1.8.0_191-amd64/jre"
+    }, {
+      "key" : "file.separator",
+      "value" : "/"
+    }, {
+      "key" : "line.separator",
+      "value" : "\n"
+    }, {
+      "key" : "java.vm.specification.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.specification.name",
+      "value" : "Java Platform API Specification"
+    }, {
+      "key" : "java.awt.graphicsenv",
+      "value" : "sun.awt.X11GraphicsEnvironment"
+    }, {
+      "key" : "hadoop.security.logger",
+      "value" : "INFO,RFAS"
+    }, {
+      "key" : "hadoop.log.dir",
+      "value" : "/var/log/hadoop-hdfs"
+    }, {
+      "key" : "sun.boot.class.path",
+      "value" : "/usr/java/jdk1.8.0_191-amd64/jre/lib/resources.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/rt.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jsse.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jce.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/charsets.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jfr.jar:/usr/java/jdk1.8.0_191-amd64/jre/classes"
+    }, {
+      "key" : "sun.management.compiler",
+      "value" : "HotSpot 64-Bit Tiered Compilers"
+    }, {
+      "key" : "java.runtime.version",
+      "value" : "1.8.0_191-b12"
+    }, {
+      "key" : "hadoop.log.file",
+      "value" : "hadoop-cmf-hdfs-NAMENODE-pre-zboffline-002.pre.leyantech.com.log.out"
+    }, {
+      "key" : "java.net.preferIPv4Stack",
+      "value" : "true"
+    }, {
+      "key" : "user.name",
+      "value" : "hdfs"
+    }, {
+      "key" : "hadoop.home.dir",
+      "value" : "/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop"
+    }, {
+      "key" : "path.separator",
+      "value" : ":"
+    }, {
+      "key" : "hadoop.id.str",
+      "value" : "hdfs"
+    }, {
+      "key" : "os.version",
+      "value" : "3.10.0-862.14.4.el7.x86_64"
+    }, {
+      "key" : "java.endorsed.dirs",
+      "value" : "/usr/java/jdk1.8.0_191-amd64/jre/lib/endorsed"
+    }, {
+      "key" : "java.runtime.name",
+      "value" : "Java(TM) SE Runtime Environment"
+    }, {
+      "key" : "hadoop.root.logger",
+      "value" : "INFO,RFA"
+    }, {
+      "key" : "file.encoding",
+      "value" : "UTF-8"
+    }, {
+      "key" : "sun.nio.ch.bugLevel",
+      "value" : ""
+    }, {
+      "key" : "java.vm.name",
+      "value" : "Java HotSpot(TM) 64-Bit Server VM"
+    }, {
+      "key" : "java.vendor.url.bug",
+      "value" : "http://bugreport.sun.com/bugreport/"
+    }, {
+      "key" : "java.io.tmpdir",
+      "value" : "/tmp"
+    }, {
+      "key" : "java.version",
+      "value" : "1.8.0_191"
+    }, {
+      "key" : "user.dir",
+      "value" : "/run/cloudera-scm-agent/process/5939-hdfs-NAMENODE"
+    }, {
+      "key" : "os.arch",
+      "value" : "amd64"
+    }, {
+      "key" : "java.vm.specification.name",
+      "value" : "Java Virtual Machine Specification"
+    }, {
+      "key" : "java.awt.printerjob",
+      "value" : "sun.print.PSPrinterJob"
+    }, {
+      "key" : "hadoop.policy.file",
+      "value" : "hadoop-policy.xml"
+    }, {
+      "key" : "sun.os.patch.level",
+      "value" : "unknown"
+    }, {
+      "key" : "proc_namenode",
+      "value" : ""
+    }, {
+      "key" : "java.library.path",
+      "value" : "/opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/lib/hadoop/lib/native"
+    }, {
+      "key" : "java.vm.info",
+      "value" : "mixed mode"
+    }, {
+      "key" : "java.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.vm.version",
+      "value" : "25.191-b12"
+    }, {
+      "key" : "java.ext.dirs",
+      "value" : "/usr/java/jdk1.8.0_191-amd64/jre/lib/ext:/usr/java/packages/lib/ext"
+    }, {
+      "key" : "sun.io.unicode.encoding",
+      "value" : "UnicodeLittle"
+    }, {
+      "key" : "java.class.version",
+      "value" : "52.0"
+    } ],
+    "StartTime" : 1596792470960,
+    "ObjectName" : "java.lang:type=Runtime"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=StartupProgress",
+    "modelerType" : "StartupProgress",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "ElapsedTime" : 131631,
+    "PercentComplete" : 1.0,
+    "LoadingFsImageCount" : 10408471,
+    "LoadingFsImageElapsedTime" : 48876,
+    "LoadingFsImageTotal" : 10408471,
+    "LoadingFsImagePercentComplete" : 1.0,
+    "LoadingEditsCount" : 784814,
+    "LoadingEditsElapsedTime" : 307,
+    "LoadingEditsTotal" : 784814,
+    "LoadingEditsPercentComplete" : 1.0,
+    "SavingCheckpointCount" : 0,
+    "SavingCheckpointElapsedTime" : 0,
+    "SavingCheckpointTotal" : 0,
+    "SavingCheckpointPercentComplete" : 1.0,
+    "SafeModeCount" : 10749349,
+    "SafeModeElapsedTime" : 76345,
+    "SafeModeTotal" : 10754610,
+    "SafeModePercentComplete" : 1.0
+  }, {
+    "name" : "java.lang:type=Threading",
+    "modelerType" : "sun.management.ThreadImpl",
+    "ThreadAllocatedMemoryEnabled" : true,
+    "ThreadAllocatedMemorySupported" : true,
+    "DaemonThreadCount" : 298,
+    "PeakThreadCount" : 362,
+    "CurrentThreadCpuTimeSupported" : true,
+    "ObjectMonitorUsageSupported" : true,
+    "SynchronizerUsageSupported" : true,
+    "ThreadContentionMonitoringSupported" : true,
+    "ThreadCpuTimeEnabled" : true,
+    "ThreadCount" : 302,
+    "CurrentThreadCpuTime" : 3359068930,
+    "CurrentThreadUserTime" : 2760000000,
+    "TotalStartedThreadCount" : 174483,
+    "ThreadCpuTimeSupported" : true,
+    "ThreadContentionMonitoringEnabled" : false,
+    "AllThreadIds" : [ 174500, 174499, 174498, 174497, 174496, 174495, 174489, 174487, 174486, 174485, 174448, 174447, 174445, 174442, 174310, 174306, 174258, 173864, 173844, 172132, 161626, 158163, 154543, 28032, 340, 339, 338, 337, 336, 335, 334, 333, 318, 317, 316, 306, 305, 304, 303, 302, 301, 300, 299, 298, 297, 296, 295, 294, 293, 292, 291, 290, 289, 288, 287, 286, 285, 284, 283, 282, 281, 280, 279, 278, 277, 276, 275, 274, 273, 272, 271, 270, 269, 268, 267, 266, 265, 264, 263, 262, 261, 260, 259, 258, 257, 256, 255, 254, 253, 252, 251, 250, 249, 248, 247, 246, 245, 244, 243, 242, 241, 240, 239, 238, 237, 236, 235, 234, 233, 232, 231, 230, 229, 228, 227, 226, 225, 224, 223, 222, 221, 220, 219, 218, 217, 216, 215, 214, 213, 212, 211, 210, 209, 208, 207, 206, 205, 204, 203, 202, 201, 200, 199, 198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188, 187, 56, 59, 186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176, 175, 174, 173, 172, 171, 170, 169, 168, 167, 166, 165, 164, 163, 162, 161, 160, 159, 158, 157, 156, 155, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135, 134, 133, 132, 131, 130, 129, 128, 127, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 60, 63, 36, 35, 34, 37, 66, 65, 62, 61, 58, 57, 39, 38, 33, 30, 29, 27, 25, 24, 19, 5, 3, 2, 1 ],
+    "ObjectName" : "java.lang:type=Threading"
+  }, {
+    "name" : "java.lang:type=OperatingSystem",
+    "modelerType" : "sun.management.OperatingSystemImpl",
+    "MaxFileDescriptorCount" : 32768,
+    "OpenFileDescriptorCount" : 379,
+    "CommittedVirtualMemorySize" : 19770720256,
+    "FreePhysicalMemorySize" : 18946310144,
+    "FreeSwapSpaceSize" : 0,
+    "ProcessCpuLoad" : 0.07592303692147687,
+    "ProcessCpuTime" : 1650182000000000,
+    "SystemCpuLoad" : 0.08309932397295892,
+    "TotalPhysicalMemorySize" : 67386740736,
+    "TotalSwapSpaceSize" : 0,
+    "Name" : "Linux",
+    "AvailableProcessors" : 16,
+    "Arch" : "amd64",
+    "SystemLoadAverage" : 0.7,
+    "Version" : "3.10.0-862.14.4.el7.x86_64",
+    "ObjectName" : "java.lang:type=OperatingSystem"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=FSNamesystem",
+    "modelerType" : "FSNamesystem",
+    "tag.Context" : "dfs",
+    "tag.HAState" : "active",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "BlocksTotal" : 12241272,
+    "MissingBlocks" : 0,
+    "MissingReplOneBlocks" : 0,
+    "ExpiredHeartbeats" : 6,
+    "TransactionsSinceLastCheckpoint" : 1137732,
+    "TransactionsSinceLastLogRoll" : 46412,
+    "LastWrittenTransactionId" : 18315548895,
+    "LastCheckpointTime" : 1599045776785,
+    "UnderReplicatedBlocks" : 0,
+    "CorruptBlocks" : 0,
+    "CapacityTotal" : 1824622337261568,
+    "CapacityTotalGB" : 1699312.0,
+    "CapacityUsed" : 702399907826025,
+    "CapacityUsedGB" : 654161.0,
+    "CapacityRemaining" : 1028294689995403,
+    "CapacityRemainingGB" : 957674.0,
+    "CapacityUsedNonDFS" : 9340399755319,
+    "TotalLoad" : 614,
+    "SnapshottableDirectories" : 0,
+    "Snapshots" : 0,
+    "NumEncryptionZones" : 0,
+    "LockQueueLength" : 0,
+    "FilesTotal" : 11795704,
+    "PendingReplicationBlocks" : 0,
+    "ScheduledReplicationBlocks" : 0,
+    "PendingDeletionBlocks" : 439,
+    "ExcessBlocks" : 91,
+    "PostponedMisreplicatedBlocks" : 0,
+    "PendingDataNodeMessageCount" : 0,
+    "MillisSinceLastLoadedEdits" : 0,
+    "BlockCapacity" : 33554432,
+    "StaleDataNodes" : 0,
+    "TotalFiles" : 11795704
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Code Cache",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "Code Cache",
+    "Type" : "NON_HEAP",
+    "Valid" : true,
+    "CollectionUsage" : null,
+    "MemoryManagerNames" : [ "CodeCacheManager" ],
+    "PeakUsage" : {
+      "committed" : 61407232,
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 60798848
+    },
+    "Usage" : {
+      "committed" : 61407232,
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 60797376
+    },
+    "UsageThreshold" : 0,
+    "UsageThresholdCount" : 0,
+    "CollectionUsageThresholdSupported" : false,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdSupported" : true,
+    "ObjectName" : "java.lang:type=MemoryPool,name=Code Cache"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=IPCLoggerChannel-10.0.49.81-8485",
+    "modelerType" : "IPCLoggerChannel-10.0.49.81-8485",
+    "tag.Context" : "dfs",
+    "tag.IsOutOfSync" : "false",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "QueuedEditsSize" : 1449,
+    "LagTimeMillis" : 7,
+    "CurrentLagTxns" : 0
+  }, {
+    "name" : "java.nio:type=BufferPool,name=direct",
+    "modelerType" : "sun.management.ManagementFactoryHelper$1",
+    "Name" : "direct",
+    "MemoryUsed" : 13567504,
+    "TotalCapacity" : 13567504,
+    "Count" : 444,
+    "ObjectName" : "java.nio:type=BufferPool,name=direct"
+  }, {
+    "name" : "java.lang:type=Compilation",
+    "modelerType" : "sun.management.CompilationImpl",
+    "Name" : "HotSpot 64-Bit Tiered Compilers",
+    "CompilationTimeMonitoringSupported" : true,
+    "TotalCompilationTime" : 165741,
+    "ObjectName" : "java.lang:type=Compilation"
+  }, {
+    "name" : "java.lang:type=MemoryManager,name=CodeCacheManager",
+    "modelerType" : "sun.management.MemoryManagerImpl",
+    "Name" : "CodeCacheManager",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Code Cache" ],
+    "ObjectName" : "java.lang:type=MemoryManager,name=CodeCacheManager"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=RpcActivityForPort8022",
+    "modelerType" : "RpcActivityForPort8022",
+    "tag.port" : "8022",
+    "tag.Context" : "rpc",
+    "tag.NumOpenConnectionsPerUser" : "{\"hdfs\":27}",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "ReceivedBytes" : 630565518363,
+    "SentBytes" : 43613524732,
+    "RpcQueueTimeNumOps" : 1135712656,
+    "RpcQueueTimeAvgTime" : 0.05576923076923077,
+    "RpcProcessingTimeNumOps" : 1135712656,
+    "RpcProcessingTimeAvgTime" : 0.01730769230769231,
+    "RpcAuthenticationFailures" : 0,
+    "RpcAuthenticationSuccesses" : 0,
+    "RpcAuthorizationFailures" : 0,
+    "RpcAuthorizationSuccesses" : 18962,
+    "RpcSlowCalls" : 0,
+    "RpcClientBackoff" : 0,
+    "NumOpenConnections" : 27,
+    "CallQueueLength" : 0,
+    "NumDroppedConnections" : 0
+  }, {
+    "name" : "java.util.logging:type=Logging",
+    "modelerType" : "sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+    "ObjectName" : "java.util.logging:type=Logging",
+    "LoggerNames" : [ "com.sun.jersey.server.impl.application.WebApplicationImpl", "javax.management.notification", "javax.management.timer", "com.sun.jersey.spi.inject.Errors", "com.sun.jersey.core.spi.component.ProviderServices", "com.sun.jersey.spi.container.ContainerResponse", "javax.management.modelmbean", "com.google.common.cache.CacheBuilder", "com.sun.jersey.api.core.ResourceConfig", "com.sun.jersey.server.impl.application.ResourceMethodDispatcherFactory", "com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector", "com.sun.jersey.server.impl.application.RootResourceUriRules", "com.sun.jersey.server.impl.model.method.dispatch.MultipartFormDispatchProvider", "com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory", "javax.management.mbeanserver", "com.sun.jersey.server.wadl.generators.WadlGeneratorJAXBGrammarGenerator", "com.sun.jersey.spi.service.ServiceFinder", "com.sun.jersey.core.impl.provider.entity.EntityHolderReader", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.SimpleChannelUpstreamHandler", "com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl", "com.sun.xml.bind.v2.ClassFactory", "com.sun.xml.bind.v2.bytecode.ClassTailor", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.NioClientSocketChannel", "com.sun.jersey.server.impl.cdi.CDIComponentProviderFactoryInitializer", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink", "global", "com.google.common.util.concurrent.ExecutionList", "com.sun.jersey.server.impl.resource.PerRequestFactory", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.DefaultNioSocketChannelConfig", "com.sun.jersey.server.impl.managedbeans.ManagedBeanComponentProviderFactoryInitilizer", "com.sun.jersey.api.core.ScanningResourceConfig", "javax.security.sasl", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.SelectorUtil", "javax.management.snmp", "javax.management", "com.sun.jersey.server.impl.container.filter.FilterFactory", "com.sun.jersey.core.impl.provider.xml.SAXParserContextProvider", "javax.management.misc", "com.sun.jersey.api.wadl.config.WadlGeneratorLoader", "com.sun.jersey.server.impl.wadl.WadlFactory", "javax.management.monitor", "javax.xml.bind", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.CompleteChannelFuture", "com.sun.jersey.server.impl.wadl.WadlApplicationContextImpl", "javax.management.mlet", "com.google.common.cache.LocalCache", "com.sun.xml.bind.v2.runtime.reflect.opt.Injector", "com.sun.jersey.server.impl.ejb.EJBComponentProviderFactoryInitilizer", "com.sun.jersey.server.impl.modelapi.annotation.IntrospectionModeller", "javax.management.relation", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.NioProviderMetadata", "com.sun.jersey.spi.container.servlet.WebComponent", "com.cloudera.cmf.event.shaded.org.jboss.netty.util.internal.QueueFactory", "com.sun.jersey.server.impl.application.CloseableServiceFactory", "com.google.common.util.concurrent.UncaughtExceptionHandlers$Exiter", "com.sun.jersey.core.impl.provider.xml.DocumentBuilderFactoryProvider", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.DefaultChannelPipeline", "javax.management.snmp.daemon", "com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory", "com.cloudera.cmf.event.shaded.org.jboss.netty.util.ThreadRenamingRunnable", "com.sun.jersey.server.impl.resource.SingletonFactory", "sun.net.www.protocol.http.HttpURLConnection", "com.sun.xml.bind.v2.runtime.JaxBeanInfo", "com.sun.xml.bind.v2.runtime.reflect.Accessor$FieldReflection", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.DefaultChannelFuture", "com.sun.jersey.server.impl.wadl.WadlResource", "com.sun.jersey.spi.container.ContainerRequest", "com.sun.jersey.json.impl.provider.entity.JSONWithPaddingProvider", "com.sun.jersey.core.spi.component.ProviderFactory", "com.sun.jersey.api.core.PackagesResourceConfig", "com.cloudera.cmf.event.shaded.org.jboss.netty.channel.socket.nio.AbstractNioWorker", "com.sun.jersey.server.impl.monitoring.GlassFishMonitoringInitializer", "" ]
+  }, {
+    "name" : "Hadoop:service=NameNode,name=IPCLoggerChannel-10.0.49.84-8485",
+    "modelerType" : "IPCLoggerChannel-10.0.49.84-8485",
+    "tag.Context" : "dfs",
+    "tag.IsOutOfSync" : "false",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "QueuedEditsSize" : 0,
+    "LagTimeMillis" : 0,
+    "CurrentLagTxns" : 0
+  }, {
+    "name" : "java.lang:type=ClassLoading",
+    "modelerType" : "sun.management.ClassLoadingImpl",
+    "LoadedClassCount" : 9203,
+    "UnloadedClassCount" : 27,
+    "TotalLoadedClassCount" : 9230,
+    "Verbose" : false,
+    "ObjectName" : "java.lang:type=ClassLoading"
+  }, {
+    "name" : "java.lang:type=MemoryManager,name=Metaspace Manager",
+    "modelerType" : "sun.management.MemoryManagerImpl",
+    "Name" : "Metaspace Manager",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Metaspace", "Compressed Class Space" ],
+    "ObjectName" : "java.lang:type=MemoryManager,name=Metaspace Manager"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020",
+    "modelerType" : "RpcDetailedActivityForPort8020",
+    "tag.port" : "8020",
+    "tag.Context" : "rpcdetailed",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "GetBlockLocationsNumOps" : 558223968,
+    "GetBlockLocationsAvgTime" : 0.28620689655172415,
+    "FileAlreadyExistsExceptionNumOps" : 11,
+    "FileAlreadyExistsExceptionAvgTime" : 0.0,
+    "GetBlockKeysNumOps" : 1,
+    "GetBlockKeysAvgTime" : 3.0,
+    "RollingUpgradeNumOps" : 189,
+    "RollingUpgradeAvgTime" : 0.0,
+    "ListCachePoolsNumOps" : 36247,
+    "ListCachePoolsAvgTime" : 0.0,
+    "FileNotFoundExceptionNumOps" : 57138760,
+    "FileNotFoundExceptionAvgTime" : 0.1774891774891775,
+    "GetBlocksNumOps" : 4609,
+    "GetBlocksAvgTime" : 93.5,
+    "DeleteNumOps" : 60254544,
+    "DeleteAvgTime" : 15.3875,
+    "GetServerDefaultsNumOps" : 323514786,
+    "GetServerDefaultsAvgTime" : 0.0,
+    "SetOwnerNumOps" : 2830,
+    "SetOwnerAvgTime" : 9.0,
+    "VersionRequestNumOps" : 1,
+    "VersionRequestAvgTime" : 1.0,
+    "GetFsStatsNumOps" : 905315,
+    "GetFsStatsAvgTime" : 0.0,
+    "GetAdditionalDatanodeNumOps" : 55678,
+    "GetAdditionalDatanodeAvgTime" : 1.0,
+    "FsyncNumOps" : 122931,
+    "FsyncAvgTime" : 12.5,
+    "LeaseExpiredExceptionNumOps" : 1181,
+    "LeaseExpiredExceptionAvgTime" : 3.6666666666666665,
+    "AddBlockNumOps" : 46026150,
+    "AddBlockAvgTime" : 15.808383233532934,
+    "ListEncryptionZonesNumOps" : 626,
+    "ListEncryptionZonesAvgTime" : 0.0,
+    "CreateNumOps" : 77714814,
+    "CreateAvgTime" : 14.389891696750903,
+    "SetPermissionNumOps" : 1031475,
+    "SetPermissionAvgTime" : 16.3,
+    "RefreshNodesNumOps" : 1,
+    "RefreshNodesAvgTime" : 1.0,
+    "GetDatanodeStorageReportNumOps" : 189,
+    "GetDatanodeStorageReportAvgTime" : 1.0,
+    "UpdateBlockForPipelineNumOps" : 321100156,
+    "UpdateBlockForPipelineAvgTime" : 16.531620553359684,
+    "GetEZForPathNumOps" : 75856,
+    "GetEZForPathAvgTime" : 1.0,
+    "AlreadyBeingCreatedExceptionNumOps" : 14931030,
+    "AlreadyBeingCreatedExceptionAvgTime" : 0.42857142857142855,
+    "GetContentSummaryNumOps" : 7349,
+    "GetContentSummaryAvgTime" : 1.0,
+    "AccessControlExceptionNumOps" : 195963,
+    "AccessControlExceptionAvgTime" : 0.3333333333333333,
+    "SetSafeModeNumOps" : 993,
+    "SetSafeModeAvgTime" : 0.0,
+    "GetListingNumOps" : 79050168,
+    "GetListingAvgTime" : 0.8376068376068376,
+    "IOExceptionNumOps" : 2,
+    "IOExceptionAvgTime" : 0.5,
+    "RecoveryInProgressExceptionNumOps" : 475,
+    "RecoveryInProgressExceptionAvgTime" : 2.2905263157894735,
+    "SetReplicationNumOps" : 54438,
+    "SetReplicationAvgTime" : 10.0,
+    "Rename2NumOps" : 40535117,
+    "Rename2AvgTime" : 18.265822784810126,
+    "ListCacheDirectivesNumOps" : 36247,
+    "ListCacheDirectivesAvgTime" : 0.0,
+    "AbandonBlockNumOps" : 935,
+    "AbandonBlockAvgTime" : 6.0,
+    "StandbyExceptionNumOps" : 13,
+    "StandbyExceptionAvgTime" : 3.230769230769231,
+    "RenewLeaseNumOps" : 4708778,
+    "RenewLeaseAvgTime" : 2.0833333333333335,
+    "RenameNumOps" : 4469067,
+    "RenameAvgTime" : 13.666666666666666,
+    "MkdirsNumOps" : 1265671,
+    "MkdirsAvgTime" : 12.6,
+    "IsUpgradeFinalizedNumOps" : 189,
+    "IsUpgradeFinalizedAvgTime" : 0.0,
+    "UpdatePipelineNumOps" : 321096057,
+    "UpdatePipelineAvgTime" : 14.571428571428571,
+    "SetTimesNumOps" : 25210,
+    "SetTimesAvgTime" : 0.0,
+    "CompleteNumOps" : 399456608,
+    "CompleteAvgTime" : 15.037896365042537,
+    "GetFileInfoNumOps" : 599040474,
+    "GetFileInfoAvgTime" : 0.39424280350438046,
+    "AppendNumOps" : 321095739,
+    "AppendAvgTime" : 14.285855588526212,
+    "RetriableExceptionNumOps" : 2393,
+    "RetriableExceptionAvgTime" : 4.493150684931507
+  }, {
+    "name" : "Hadoop:service=NameNode,name=MetricsSystem,sub=Stats",
+    "modelerType" : "MetricsSystem,sub=Stats",
+    "tag.Context" : "metricssystem",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "NumActiveSources" : 13,
+    "NumAllSources" : 13,
+    "NumActiveSinks" : 0,
+    "NumAllSinks" : 0,
+    "SnapshotNumOps" : 0,
+    "SnapshotAvgTime" : 0.0,
+    "PublishNumOps" : 0,
+    "PublishAvgTime" : 0.0,
+    "DroppedPubAll" : 0
+  }, {
+    "name" : "Hadoop:service=NameNode,name=MetricsSystem,sub=Control",
+    "modelerType" : "org.apache.hadoop.metrics2.impl.MetricsSystemImpl"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Metaspace",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "Metaspace",
+    "Type" : "NON_HEAP",
+    "Valid" : true,
+    "CollectionUsage" : null,
+    "MemoryManagerNames" : [ "Metaspace Manager" ],
+    "PeakUsage" : {
+      "committed" : 65077248,
+      "init" : 0,
+      "max" : -1,
+      "used" : 63878112
+    },
+    "Usage" : {
+      "committed" : 65077248,
+      "init" : 0,
+      "max" : -1,
+      "used" : 63878112
+    },
+    "UsageThreshold" : 0,
+    "UsageThresholdCount" : 0,
+    "CollectionUsageThresholdSupported" : false,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdSupported" : true,
+    "ObjectName" : "java.lang:type=MemoryPool,name=Metaspace"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=NameNodeActivity",
+    "modelerType" : "NameNodeActivity",
+    "tag.ProcessName" : "NameNode",
+    "tag.SessionId" : null,
+    "tag.Context" : "dfs",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "CreateFileOps" : 77714814,
+    "FilesCreated" : 81393954,
+    "FilesAppended" : 321095739,
+    "GetBlockLocations" : 951388868,
+    "FilesRenamed" : 45004165,
+    "GetListingOps" : 79047420,
+    "DeleteFileOps" : 59929020,
+    "FilesDeleted" : 73207370,
+    "FileInfoOps" : 935282857,
+    "AddBlockOps" : 46026150,
+    "GetAdditionalDatanodeOps" : 55678,
+    "CreateSymlinkOps" : 0,
+    "GetLinkTargetOps" : 0,
+    "FilesInGetListingOps" : 13869241498,
+    "AllowSnapshotOps" : 0,
+    "DisallowSnapshotOps" : 0,
+    "CreateSnapshotOps" : 0,
+    "DeleteSnapshotOps" : 0,
+    "RenameSnapshotOps" : 0,
+    "ListSnapshottableDirOps" : 0,
+    "SnapshotDiffReportOps" : 0,
+    "BlockReceivedAndDeletedOps" : 1105790838,
+    "StorageBlockReportOps" : 32940,
+    "BlockOpsQueued" : 1,
+    "BlockOpsBatched" : 688262632,
+    "TransactionsNumOps" : 1746086638,
+    "TransactionsAvgTime" : 0.01117011536348654,
+    "SyncsNumOps" : 255471114,
+    "SyncsAvgTime" : 8.732558139534884,
+    "TransactionsBatchedInSync" : 18060077774,
+    "BlockReportNumOps" : 32940,
+    "BlockReportAvgTime" : 78.08333333333333,
+    "CacheReportNumOps" : 5814873,
+    "CacheReportAvgTime" : 0.0,
+    "SafeModeTime" : 132437,
+    "FsImageLoadTime" : 55034,
+    "GetEditNumOps" : 0,
+    "GetEditAvgTime" : 0.0,
+    "GetImageNumOps" : 0,
+    "GetImageAvgTime" : 0.0,
+    "PutImageNumOps" : 1659,
+    "PutImageAvgTime" : 12840.0,
+    "TotalFileOps" : 2515544711
+  }, {
+    "name" : "Hadoop:service=NameNode,name=IPCLoggerChannel-10.0.49.83-8485",
+    "modelerType" : "IPCLoggerChannel-10.0.49.83-8485",
+    "tag.Context" : "dfs",
+    "tag.IsOutOfSync" : "false",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "QueuedEditsSize" : 1449,
+    "LagTimeMillis" : 7,
+    "CurrentLagTxns" : 0
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Par Eden Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "Par Eden Space",
+    "Type" : "HEAP",
+    "Valid" : true,
+    "CollectionUsage" : {
+      "committed" : 907345920,
+      "init" : 907345920,
+      "max" : 907345920,
+      "used" : 0
+    },
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdCount" : 0,
+    "MemoryManagerNames" : [ "ConcurrentMarkSweep", "ParNew" ],
+    "PeakUsage" : {
+      "committed" : 907345920,
+      "init" : 907345920,
+      "max" : 907345920,
+      "used" : 907345920
+    },
+    "Usage" : {
+      "committed" : 907345920,
+      "init" : 907345920,
+      "max" : 907345920,
+      "used" : 191735656
+    },
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdSupported" : true,
+    "UsageThresholdSupported" : false,
+    "ObjectName" : "java.lang:type=MemoryPool,name=Par Eden Space"
+  }, {
+    "name" : "java.lang:type=GarbageCollector,name=ParNew",
+    "modelerType" : "sun.management.GarbageCollectorImpl",
+    "LastGcInfo" : {
+      "GcThreadCount" : 18,
+      "duration" : 25,
+      "endTime" : 2254539718,
+      "id" : 161796,
+      "memoryUsageAfterGc" : [ {
+        "key" : "Par Survivor Space",
+        "value" : {
+          "committed" : 113377280,
+          "init" : 113377280,
+          "max" : 113377280,
+          "used" : 44811400
+        }
+      }, {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 7024640,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 6713752
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 65077248,
+          "init" : 0,
+          "max" : -1,
+          "used" : 63878112
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 61276160,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 60692480
+        }
+      }, {
+        "key" : "Par Eden Space",
+        "value" : {
+          "committed" : 907345920,
+          "init" : 907345920,
+          "max" : 907345920,
+          "used" : 0
+        }
+      }, {
+        "key" : "CMS Old Gen",
+        "value" : {
+          "committed" : 16045768704,
+          "init" : 16045768704,
+          "max" : 16045768704,
+          "used" : 4900660568
+        }
+      } ],
+      "memoryUsageBeforeGc" : [ {
+        "key" : "Par Survivor Space",
+        "value" : {
+          "committed" : 113377280,
+          "init" : 113377280,
+          "max" : 113377280,
+          "used" : 35190240
+        }
+      }, {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 7024640,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 6713752
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 65077248,
+          "init" : 0,
+          "max" : -1,
+          "used" : 63878112
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 61276160,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 60692480
+        }
+      }, {
+        "key" : "Par Eden Space",
+        "value" : {
+          "committed" : 907345920,
+          "init" : 907345920,
+          "max" : 907345920,
+          "used" : 907345920
+        }
+      }, {
+        "key" : "CMS Old Gen",
+        "value" : {
+          "committed" : 16045768704,
+          "init" : 16045768704,
+          "max" : 16045768704,
+          "used" : 4896910376
+        }
+      } ],
+      "startTime" : 2254539693
+    },
+    "CollectionCount" : 161796,
+    "CollectionTime" : 4037491,
+    "Name" : "ParNew",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Par Eden Space", "Par Survivor Space" ],
+    "ObjectName" : "java.lang:type=GarbageCollector,name=ParNew"
+  }, {
+    "name" : "java.lang:type=GarbageCollector,name=ConcurrentMarkSweep",
+    "modelerType" : "sun.management.GarbageCollectorImpl",
+    "LastGcInfo" : {
+      "GcThreadCount" : 18,
+      "duration" : 14277,
+      "endTime" : 2249958936,
+      "id" : 75,
+      "memoryUsageAfterGc" : [ {
+        "key" : "Par Survivor Space",
+        "value" : {
+          "committed" : 113377280,
+          "init" : 113377280,
+          "max" : 113377280,
+          "used" : 40929280
+        }
+      }, {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 7024640,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 6628592
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 64552960,
+          "init" : 0,
+          "max" : -1,
+          "used" : 63158168
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 59965440,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 59237888
+        }
+      }, {
+        "key" : "Par Eden Space",
+        "value" : {
+          "committed" : 907345920,
+          "init" : 907345920,
+          "max" : 907345920,
+          "used" : 42439704
+        }
+      }, {
+        "key" : "CMS Old Gen",
+        "value" : {
+          "committed" : 16045768704,
+          "init" : 16045768704,
+          "max" : 16045768704,
+          "used" : 3535396456
+        }
+      } ],
+      "memoryUsageBeforeGc" : [ {
+        "key" : "Par Survivor Space",
+        "value" : {
+          "committed" : 113377280,
+          "init" : 113377280,
+          "max" : 113377280,
+          "used" : 34692504
+        }
+      }, {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 7024640,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 6628592
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 64552960,
+          "init" : 0,
+          "max" : -1,
+          "used" : 63158168
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 59965440,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 59237888
+        }
+      }, {
+        "key" : "Par Eden Space",
+        "value" : {
+          "committed" : 907345920,
+          "init" : 907345920,
+          "max" : 907345920,
+          "used" : 2560744
+        }
+      }, {
+        "key" : "CMS Old Gen",
+        "value" : {
+          "committed" : 16045768704,
+          "init" : 16045768704,
+          "max" : 16045768704,
+          "used" : 11234290056
+        }
+      } ],
+      "startTime" : 2249944659
+    },
+    "CollectionCount" : 75,
+    "CollectionTime" : 5308,
+    "Name" : "ConcurrentMarkSweep",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Par Eden Space", "Par Survivor Space", "CMS Old Gen" ],
+    "ObjectName" : "java.lang:type=GarbageCollector,name=ConcurrentMarkSweep"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=NameNodeStatus",
+    "modelerType" : "org.apache.hadoop.hdfs.server.namenode.NameNode",
+    "State" : "active",
+    "SecurityEnabled" : false,
+    "NNRole" : "NameNode",
+    "HostAndPort" : "pre-zboffline-002.pre.leyantech.com:8020",
+    "LastHATransitionTime" : 1596792531991
+  }, {
+    "name" : "Hadoop:service=NameNode,name=NameNodeInfo",
+    "modelerType" : "org.apache.hadoop.hdfs.server.namenode.FSNamesystem",
+    "Total" : 1824622337261568,
+    "Threads" : 302,
+    "ClusterId" : "cluster10",
+    "UpgradeFinalized" : true,
+    "BlockPoolId" : "BP-1105396535-10.0.32.9-1568624738833",
+    "Version" : "2.6.0-cdh5.13.3, rad398b626d788a1fa5efbe790f38255540f31358",
+    "TotalBlocks" : 12241272,
+    "Used" : 702399907826025,
+    "Free" : 1028294689995403,
+    "Safemode" : "",
+    "NonDfsUsedSpace" : 9340399755319,
+    "PercentUsed" : 38.495632,
+    "BlockPoolUsedSpace" : 702399907826025,
+    "PercentBlockPoolUsed" : 38.495632,
+    "PercentRemaining" : 56.35658,
+    "CacheCapacity" : 137438953472,
+    "CacheUsed" : 0,
+    "TotalFiles" : 11795704,
+    "NumberOfMissingBlocks" : 0,
+    "NumberOfMissingBlocksWithReplicationFactorOne" : 0,
+    "LiveNodes" : "{\"pre-zboffline-019.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.87:50075\",\"infoSecureAddr\":\"10.0.49.87:0\",\"xferaddr\":\"10.0.49.87:50010\",\"lastContact\":2,\"usedSpace\":27738287959523,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":13854035454,\"capacity\":70177782202368,\"numBlocks\":1341322,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27738287959523,\"remaining\":38881314100728,\"blockScheduled\":0,\"blockPoolUsed\":27738287959523,\"blockPoolUsedPercent\":39.525738,\"volfails\":0},\"pre-zboffline-027.pre.leyantech.com\":{\"infoAddr\":\"10.0.17.47:50075\",\"infoSecureAddr\":\"10.0.17.47:0\",\"xferaddr\":\"10.0.17.47:50010\",\"lastContact\":0,\"usedSpace\":27225998935791,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":77747780632,\"capacity\":70177782202368,\"numBlocks\":1376503,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27225998935791,\"remaining\":39329976359299,\"blockScheduled\":0,\"blockPoolUsed\":27225998935791,\"blockPoolUsedPercent\":38.795753,\"volfails\":0},\"pre-zboffline-037.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.215:50075\",\"infoSecureAddr\":\"10.0.49.215:0\",\"xferaddr\":\"10.0.49.215:50010\",\"lastContact\":0,\"usedSpace\":26915033923525,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":44843143980,\"capacity\":70177782202368,\"numBlocks\":1465441,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26915033923525,\"remaining\":39673630781364,\"blockScheduled\":0,\"blockPoolUsed\":26915033923525,\"blockPoolUsedPercent\":38.352642,\"volfails\":0},\"pre-zboffline-017.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.82:50075\",\"infoSecureAddr\":\"10.0.49.82:0\",\"xferaddr\":\"10.0.49.82:50010\",\"lastContact\":2,\"usedSpace\":27530983729342,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":178981136331,\"capacity\":70177782202368,\"numBlocks\":1341508,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27530983729342,\"remaining\":38923606135270,\"blockScheduled\":0,\"blockPoolUsed\":27530983729342,\"blockPoolUsedPercent\":39.230343,\"volfails\":0},\"pre-zboffline-034.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.209:50075\",\"infoSecureAddr\":\"10.0.49.209:0\",\"xferaddr\":\"10.0.49.209:50010\",\"lastContact\":2,\"usedSpace\":27048348865573,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":190960287253,\"capacity\":70177782202368,\"numBlocks\":1428769,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27048348865573,\"remaining\":39394511060762,\"blockScheduled\":0,\"blockPoolUsed\":27048348865573,\"blockPoolUsedPercent\":38.54261,\"volfails\":0},\"pre-zboffline-024.pre.leyantech.com\":{\"infoAddr\":\"10.0.17.24:50075\",\"infoSecureAddr\":\"10.0.17.24:0\",\"xferaddr\":\"10.0.17.24:50010\",\"lastContact\":0,\"usedSpace\":26906617492477,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":5485931430,\"capacity\":70177782202368,\"numBlocks\":1433655,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26906617492477,\"remaining\":39721589471822,\"blockScheduled\":0,\"blockPoolUsed\":26906617492477,\"blockPoolUsedPercent\":38.34065,\"volfails\":0},\"pre-zboffline-021.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.88:50075\",\"infoSecureAddr\":\"10.0.49.88:0\",\"xferaddr\":\"10.0.49.88:50010\",\"lastContact\":0,\"usedSpace\":26915878791365,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":125464144725,\"capacity\":70177782202368,\"numBlocks\":1468360,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26915878791365,\"remaining\":39592480618604,\"blockScheduled\":0,\"blockPoolUsed\":26915878791365,\"blockPoolUsedPercent\":38.353848,\"volfails\":0},\"pre-zboffline-031.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.213:50075\",\"infoSecureAddr\":\"10.0.49.213:0\",\"xferaddr\":\"10.0.49.213:50010\",\"lastContact\":1,\"usedSpace\":26769390180754,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":0,\"capacity\":70177782202368,\"numBlocks\":1432705,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26769390180754,\"remaining\":39864412144171,\"blockScheduled\":0,\"blockPoolUsed\":26769390180754,\"blockPoolUsedPercent\":38.145107,\"volfails\":0},\"pre-zboffline-014.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.84:50075\",\"infoSecureAddr\":\"10.0.49.84:0\",\"xferaddr\":\"10.0.49.84:50010\",\"lastContact\":2,\"usedSpace\":27153914341755,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":4505858349,\"capacity\":70177782202368,\"numBlocks\":1349787,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27153914341755,\"remaining\":39475267003693,\"blockScheduled\":0,\"blockPoolUsed\":27153914341755,\"blockPoolUsedPercent\":38.693035,\"volfails\":0},\"pre-zboffline-028.pre.leyantech.com\":{\"infoAddr\":\"10.0.17.71:50075\",\"infoSecureAddr\":\"10.0.17.71:0\",\"xferaddr\":\"10.0.17.71:50010\",\"lastContact\":2,\"usedSpace\":27048654826869,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":23913901940,\"capacity\":70177782202368,\"numBlocks\":1415298,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27048654826869,\"remaining\":39561387444288,\"blockScheduled\":0,\"blockPoolUsed\":27048654826869,\"blockPoolUsedPercent\":38.543045,\"volfails\":0},\"pre-zboffline-015.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.81:50075\",\"infoSecureAddr\":\"10.0.49.81:0\",\"xferaddr\":\"10.0.49.81:50010\",\"lastContact\":0,\"usedSpace\":27638649785596,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":179013408646,\"capacity\":70177782202368,\"numBlocks\":1348083,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27638649785596,\"remaining\":38816161076037,\"blockScheduled\":0,\"blockPoolUsed\":27638649785596,\"blockPoolUsedPercent\":39.38376,\"volfails\":0},\"pre-zboffline-030.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.216:50075\",\"infoSecureAddr\":\"10.0.49.216:0\",\"xferaddr\":\"10.0.49.216:50010\",\"lastContact\":0,\"usedSpace\":26198523858659,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":37953134863,\"capacity\":70177782202368,\"numBlocks\":1547380,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26198523858659,\"remaining\":40397307369089,\"blockScheduled\":0,\"blockPoolUsed\":26198523858659,\"blockPoolUsedPercent\":37.33165,\"volfails\":0},\"pre-zboffline-022.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.86:50075\",\"infoSecureAddr\":\"10.0.49.86:0\",\"xferaddr\":\"10.0.49.86:50010\",\"lastContact\":2,\"usedSpace\":27643697055693,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":1424053006,\"capacity\":70177782202368,\"numBlocks\":1338190,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27643697055693,\"remaining\":38988474991118,\"blockScheduled\":0,\"blockPoolUsed\":27643697055693,\"blockPoolUsedPercent\":39.390953,\"volfails\":0},\"pre-zboffline-035.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.208:50075\",\"infoSecureAddr\":\"10.0.49.208:0\",\"xferaddr\":\"10.0.49.208:50010\",\"lastContact\":0,\"usedSpace\":26646773619530,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":79620103513,\"capacity\":70177782202368,\"numBlocks\":1516274,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26646773619530,\"remaining\":39907119685998,\"blockScheduled\":0,\"blockPoolUsed\":26646773619530,\"blockPoolUsedPercent\":37.970387,\"volfails\":0},\"pre-zboffline-032.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.211:50075\",\"infoSecureAddr\":\"10.0.49.211:0\",\"xferaddr\":\"10.0.49.211:50010\",\"lastContact\":1,\"usedSpace\":27559326378122,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":105922641577,\"capacity\":70177782202368,\"numBlocks\":1475200,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27559326378122,\"remaining\":38967961468363,\"blockScheduled\":0,\"blockPoolUsed\":27559326378122,\"blockPoolUsedPercent\":39.27073,\"volfails\":0},\"pre-zboffline-020.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.89:50075\",\"infoSecureAddr\":\"10.0.49.89:0\",\"xferaddr\":\"10.0.49.89:50010\",\"lastContact\":2,\"usedSpace\":26911794080223,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":62556114556,\"capacity\":70177782202368,\"numBlocks\":1318039,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26911794080223,\"remaining\":39659455792579,\"blockScheduled\":0,\"blockPoolUsed\":26911794080223,\"blockPoolUsedPercent\":38.348022,\"volfails\":0},\"pre-zboffline-025.pre.leyantech.com\":{\"infoAddr\":\"10.0.32.61:50075\",\"infoSecureAddr\":\"10.0.32.61:0\",\"xferaddr\":\"10.0.32.61:50010\",\"lastContact\":1,\"usedSpace\":26754064229259,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":144994385118,\"capacity\":70177782202368,\"numBlocks\":1413662,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26754064229259,\"remaining\":39734441084521,\"blockScheduled\":0,\"blockPoolUsed\":26754064229259,\"blockPoolUsedPercent\":38.123272,\"volfails\":0},\"pre-zboffline-018.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.85:50075\",\"infoSecureAddr\":\"10.0.49.85:0\",\"xferaddr\":\"10.0.49.85:50010\",\"lastContact\":0,\"usedSpace\":27436011532659,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":38576370546,\"capacity\":70177782202368,\"numBlocks\":1329360,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27436011532659,\"remaining\":39159168485139,\"blockScheduled\":0,\"blockPoolUsed\":27436011532659,\"blockPoolUsedPercent\":39.095013,\"volfails\":0},\"pre-zboffline-038.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.214:50075\",\"infoSecureAddr\":\"10.0.49.214:0\",\"xferaddr\":\"10.0.49.214:50010\",\"lastContact\":0,\"usedSpace\":26165447389904,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":227587144257,\"capacity\":70177782202368,\"numBlocks\":1497516,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26165447389904,\"remaining\":40240422711551,\"blockScheduled\":0,\"blockPoolUsed\":26165447389904,\"blockPoolUsedPercent\":37.28452,\"volfails\":0},\"pre-zboffline-036.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.217:50075\",\"infoSecureAddr\":\"10.0.49.217:0\",\"xferaddr\":\"10.0.49.217:50010\",\"lastContact\":0,\"usedSpace\":26330805606073,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":14486175799,\"capacity\":70177782202368,\"numBlocks\":1488123,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26330805606073,\"remaining\":40288637954362,\"blockScheduled\":0,\"blockPoolUsed\":26330805606073,\"blockPoolUsedPercent\":37.520145,\"volfails\":0},\"pre-zboffline-023.pre.leyantech.com\":{\"infoAddr\":\"10.0.17.23:50075\",\"infoSecureAddr\":\"10.0.17.23:0\",\"xferaddr\":\"10.0.17.23:50010\",\"lastContact\":0,\"usedSpace\":26901691748039,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":4745777002,\"capacity\":70177782202368,\"numBlocks\":1408370,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26901691748039,\"remaining\":39726836080991,\"blockScheduled\":0,\"blockPoolUsed\":26901691748039,\"blockPoolUsedPercent\":38.33363,\"volfails\":0},\"pre-zboffline-013.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.83:50075\",\"infoSecureAddr\":\"10.0.49.83:0\",\"xferaddr\":\"10.0.49.83:50010\",\"lastContact\":1,\"usedSpace\":27248963152415,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":31994896295,\"capacity\":70177782202368,\"numBlocks\":1352715,\"version\":\"2.6.0-cdh5.13.3\",\"used\":27248963152415,\"remaining\":39352832150801,\"blockScheduled\":0,\"blockPoolUsed\":27248963152415,\"blockPoolUsedPercent\":38.828476,\"volfails\":0},\"pre-zboffline-033.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.210:50075\",\"infoSecureAddr\":\"10.0.49.210:0\",\"xferaddr\":\"10.0.49.210:50010\",\"lastContact\":0,\"usedSpace\":26362193339817,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":9671829746,\"capacity\":70177782202368,\"numBlocks\":1518141,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26362193339817,\"remaining\":40262118516154,\"blockScheduled\":0,\"blockPoolUsed\":26362193339817,\"blockPoolUsedPercent\":37.56487,\"volfails\":0},\"pre-zboffline-016.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.80:50075\",\"infoSecureAddr\":\"10.0.49.80:0\",\"xferaddr\":\"10.0.49.80:50010\",\"lastContact\":1,\"usedSpace\":26736263770636,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":16576784872,\"capacity\":70177782202368,\"numBlocks\":1296849,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26736263770636,\"remaining\":39880882617449,\"blockScheduled\":0,\"blockPoolUsed\":26736263770636,\"blockPoolUsedPercent\":38.0979,\"volfails\":0},\"pre-zboffline-026.pre.leyantech.com\":{\"infoAddr\":\"10.0.32.17:50075\",\"infoSecureAddr\":\"10.0.32.17:0\",\"xferaddr\":\"10.0.32.17:50010\",\"lastContact\":2,\"usedSpace\":26451354368864,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":159804353617,\"capacity\":70177782202368,\"numBlocks\":1470006,\"version\":\"2.6.0-cdh5.13.3\",\"used\":26451354368864,\"remaining\":40022228346988,\"blockScheduled\":0,\"blockPoolUsed\":26451354368864,\"blockPoolUsedPercent\":37.691925,\"volfails\":0},\"pre-zboffline-029.pre.leyantech.com\":{\"infoAddr\":\"10.0.49.212:50075\",\"infoSecureAddr\":\"10.0.49.212:0\",\"xferaddr\":\"10.0.49.212:50010\",\"lastContact\":1,\"usedSpace\":28161238863562,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":0,\"capacity\":70177782202368,\"numBlocks\":1352703,\"version\":\"2.6.0-cdh5.13.3\",\"used\":28161238863562,\"remaining\":38472466544262,\"blockScheduled\":0,\"blockPoolUsed\":28161238863562,\"blockPoolUsedPercent\":40.128426,\"volfails\":0}}",
+    "SoftwareVersion" : "2.6.0-cdh5.13.3",
+    "DeadNodes" : "{\"pre-zboffline-042.pre.leyantech.com\":{\"lastContact\":1599047013,\"decommissioned\":false,\"adminState\":\"In Service\",\"xferaddr\":\"10.0.17.120:50010\"},\"pre-zboffline-039.pre.leyantech.com\":{\"lastContact\":1599047013,\"decommissioned\":false,\"adminState\":\"In Service\",\"xferaddr\":\"10.0.48.36:50010\"},\"pre-zboffline-043.pre.leyantech.com\":{\"lastContact\":1599047013,\"decommissioned\":false,\"adminState\":\"In Service\",\"xferaddr\":\"10.0.17.121:50010\"},\"pre-zboffline-040.pre.leyantech.com\":{\"lastContact\":1599047013,\"decommissioned\":false,\"adminState\":\"In Service\",\"xferaddr\":\"10.0.48.37:50010\"},\"pre-zboffline-041.pre.leyantech.com\":{\"lastContact\":1599047013,\"decommissioned\":false,\"adminState\":\"In Service\",\"xferaddr\":\"10.0.48.38:50010\"}}",
+    "DecomNodes" : "{}",
+    "EnteringMaintenanceNodes" : "{}",
+    "NameDirStatuses" : "{\"active\":{\"/data/dfs/nn\":\"IMAGE_AND_EDITS\"},\"failed\":{}}",
+    "NodeUsage" : "{\"nodeUsage\":{\"min\":\"37.28%\",\"median\":\"38.35%\",\"max\":\"40.13%\",\"stdDev\":\"0.71%\"}}",
+    "NameJournalStatus" : "[{\"manager\":\"QJM to [10.0.49.83:8485, 10.0.49.84:8485, 10.0.49.81:8485]\",\"stream\":\"Writing segment beginning at txid 18315502484. \\n10.0.49.83:8485 (Written txid 18315548888), 10.0.49.84:8485 (Written txid 18315548895), 10.0.49.81:8485 (Written txid 18315548888)\",\"disabled\":\"false\",\"required\":\"true\"},{\"manager\":\"FileJournalManager(root=/data/dfs/nn)\",\"stream\":\"EditLogFileOutputStream(/data/dfs/nn/current/edits_inprogress_0000000018315502484)\",\"disabled\":\"false\",\"required\":\"false\"}]",
+    "JournalTransactionInfo" : "{\"MostRecentCheckpointTxId\":\"18314411163\",\"LastAppliedOrWrittenTxId\":\"18315548897\"}",
+    "NNStarted" : "Fri Aug 07 17:27:52 CST 2020",
+    "NNStartedTimeInMillis" : 1596792472786,
+    "CompileInfo" : "2018-03-17T11:29Z by jenkins from Unknown",
+    "CorruptFiles" : "[]",
+    "NumberOfSnapshottableDirs" : 0,
+    "DistinctVersionCount" : 1,
+    "DistinctVersions" : [ {
+      "key" : "2.6.0-cdh5.13.3",
+      "value" : 26
+    } ],
+    "RollingUpgradeStatus" : null
+  }, {
+    "name" : "Hadoop:service=NameNode,name=SnapshotInfo",
+    "modelerType" : "org.apache.hadoop.hdfs.server.namenode.snapshot.SnapshotManager",
+    "SnapshottableDirectories" : [ ],
+    "Snapshots" : [ ]
+  }, {
+    "name" : "Hadoop:service=NameNode,name=RpcDetailedActivityForPort8022",
+    "modelerType" : "RpcDetailedActivityForPort8022",
+    "tag.port" : "8022",
+    "tag.Context" : "rpcdetailed",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "GetServiceStatusNumOps" : 2253054,
+    "GetServiceStatusAvgTime" : 0.0,
+    "RollEditLogNumOps" : 17235,
+    "RollEditLogAvgTime" : 91.0,
+    "SendHeartbeatNumOps" : 19519221,
+    "SendHeartbeatAvgTime" : 0.36538461538461536,
+    "RegisterDatanodeNumOps" : 32,
+    "RegisterDatanodeAvgTime" : 0.0,
+    "CacheReportNumOps" : 5814873,
+    "CacheReportAvgTime" : 0.42857142857142855,
+    "IOExceptionNumOps" : 3,
+    "IOExceptionAvgTime" : 0.0,
+    "ReportBadBlocksNumOps" : 7935,
+    "ReportBadBlocksAvgTime" : 1.0,
+    "MonitorHealthNumOps" : 2253054,
+    "MonitorHealthAvgTime" : 0.0,
+    "VersionRequestNumOps" : 32,
+    "VersionRequestAvgTime" : 0.0,
+    "TransitionToActiveNumOps" : 2,
+    "TransitionToActiveAvgTime" : 0.0,
+    "CommitBlockSynchronizationNumOps" : 114,
+    "CommitBlockSynchronizationAvgTime" : 14.0,
+    "BlockReportNumOps" : 32940,
+    "BlockReportAvgTime" : 87.16666666666667,
+    "BlockReceivedAndDeletedNumOps" : 1105790838,
+    "BlockReceivedAndDeletedAvgTime" : 0.010674157303370787,
+    "ErrorReportNumOps" : 23323,
+    "ErrorReportAvgTime" : 0.0
+  }, {
+    "name" : "Hadoop:service=NameNode,name=BlockStats",
+    "modelerType" : "org.apache.hadoop.hdfs.server.blockmanagement.BlockManager",
+    "StorageTypeStats" : [ {
+      "key" : "DISK",
+      "value" : {
+        "blockPoolUsed" : 839518242956053,
+        "capacityRemaining" : 1283416001509452,
+        "capacityTotal" : 2245689030475776,
+        "capacityUsed" : 839518242945059,
+        "nodesInService" : 32
+      }
+    } ]
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Compressed Class Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "Compressed Class Space",
+    "Type" : "NON_HEAP",
+    "Valid" : true,
+    "CollectionUsage" : null,
+    "MemoryManagerNames" : [ "Metaspace Manager" ],
+    "PeakUsage" : {
+      "committed" : 7024640,
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 6713752
+    },
+    "Usage" : {
+      "committed" : 7024640,
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 6713752
+    },
+    "UsageThreshold" : 0,
+    "UsageThresholdCount" : 0,
+    "CollectionUsageThresholdSupported" : false,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdSupported" : true,
+    "ObjectName" : "java.lang:type=MemoryPool,name=Compressed Class Space"
+  }, {
+    "name" : "java.lang:type=Memory",
+    "modelerType" : "sun.management.MemoryImpl",
+    "HeapMemoryUsage" : {
+      "committed" : 17066491904,
+      "init" : 17179869184,
+      "max" : 17066491904,
+      "used" : 5137868352
+    },
+    "NonHeapMemoryUsage" : {
+      "committed" : 133509120,
+      "init" : 2555904,
+      "max" : -1,
+      "used" : 131389240
+    },
+    "ObjectPendingFinalizationCount" : 0,
+    "Verbose" : false,
+    "ObjectName" : "java.lang:type=Memory"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=FSNamesystemState",
+    "modelerType" : "org.apache.hadoop.hdfs.server.namenode.FSNamesystem",
+    "BlocksTotal" : 12241272,
+    "UnderReplicatedBlocks" : 0,
+    "CapacityTotal" : 1824622337261568,
+    "CapacityUsed" : 702399907826025,
+    "CapacityRemaining" : 1028294689995403,
+    "TotalLoad" : 614,
+    "SnapshotStats" : "{\"SnapshottableDirectories\":0,\"Snapshots\":0}",
+    "NumEncryptionZones" : 0,
+    "FsLockQueueLength" : 0,
+    "MaxObjects" : 0,
+    "FilesTotal" : 11795704,
+    "PendingReplicationBlocks" : 0,
+    "ScheduledReplicationBlocks" : 0,
+    "PendingDeletionBlocks" : 439,
+    "BlockDeletionStartTime" : 1596792472786,
+    "FSState" : "Operational",
+    "NumLiveDataNodes" : 26,
+    "NumDeadDataNodes" : 5,
+    "NumDecomLiveDataNodes" : 0,
+    "NumDecomDeadDataNodes" : 0,
+    "VolumeFailuresTotal" : 0,
+    "EstimatedCapacityLostTotal" : 0,
+    "NumDecommissioningDataNodes" : 0,
+    "NumStaleDataNodes" : 0,
+    "NumStaleStorages" : 0,
+    "TopUserOpCounts" : "{\"timestamp\":\"2020-09-02T19:43:33+0800\",\"windows\":[{\"windowLenMs\":60000,\"ops\":[{\"opType\":\"getEZForPath\",\"topUsers\":[{\"user\":\"xinmeng.zhang\",\"count\":1}],\"totalCount\":1},{\"opType\":\"listStatus\",\"topUsers\":[{\"user\":\"schedule\",\"count\":766},{\"user\":\"stream\",\"count\":427},{\"user\":\"spark\",\"count\":122},{\"user\":\"nifi\",\"count\":68},{\"user\":\"root\",\"count\":23},{\"user\":\"hue\",\"count\":13},{\"user\":\"xinmeng.zhang\",\"count\":7},{\"user\":\"yarn\",\"count\":6},{\"user\":\"oozie\",\"count\":6},{\"user\":\"mapred\",\"count\":4}],\"totalCount\":1442},{\"opType\":\"*\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":11564},{\"user\":\"root\",\"count\":4163},{\"user\":\"stream\",\"count\":3105},{\"user\":\"schedule\",\"count\":2653},{\"user\":\"fan.yang\",\"count\":1438},{\"user\":\"nifi\",\"count\":326},{\"user\":\"spark\",\"count\":257},{\"user\":\"hue\",\"count\":66},{\"user\":\"xinmeng.zhang\",\"count\":38},{\"user\":\"yarn\",\"count\":9}],\"totalCount\":23629},{\"opType\":\"delete\",\"topUsers\":[{\"user\":\"stream\",\"count\":830},{\"user\":\"nifi\",\"count\":22},{\"user\":\"schedule\",\"count\":15},{\"user\":\"spark\",\"count\":6},{\"user\":\"xinmeng.zhang\",\"count\":2}],\"totalCount\":875},{\"opType\":\"setReplication\",\"topUsers\":[{\"user\":\"schedule\",\"count\":1}],\"totalCount\":1},{\"opType\":\"getfileinfo\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":5100},{\"user\":\"root\",\"count\":4127},{\"user\":\"schedule\",\"count\":639},{\"user\":\"fan.yang\",\"count\":576},{\"user\":\"stream\",\"count\":265},{\"user\":\"nifi\",\"count\":155},{\"user\":\"hue\",\"count\":39},{\"user\":\"xinmeng.zhang\",\"count\":19},{\"user\":\"spark\",\"count\":6},{\"user\":\"yarn\",\"count\":3}],\"totalCount\":10929},{\"opType\":\"rename options=2\",\"topUsers\":[{\"user\":\"stream\",\"count\":117},{\"user\":\"hue\",\"count\":2}],\"totalCount\":119},{\"opType\":\"rename options=1\",\"topUsers\":[{\"user\":\"stream\",\"count\":533}],\"totalCount\":533},{\"opType\":\"rename\",\"topUsers\":[{\"user\":\"schedule\",\"count\":18},{\"user\":\"nifi\",\"count\":16}],\"totalCount\":34},{\"opType\":\"mkdirs\",\"topUsers\":[{\"user\":\"nifi\",\"count\":22},{\"user\":\"hue\",\"count\":6},{\"user\":\"xinmeng.zhang\",\"count\":4},{\"user\":\"schedule\",\"count\":4}],\"totalCount\":36},{\"opType\":\"create\",\"topUsers\":[{\"user\":\"stream\",\"count\":743},{\"user\":\"schedule\",\"count\":99},{\"user\":\"nifi\",\"count\":22},{\"user\":\"spark\",\"count\":6},{\"user\":\"hdfs\",\"count\":1}],\"totalCount\":871},{\"opType\":\"setPermission\",\"topUsers\":[{\"user\":\"nifi\",\"count\":22},{\"user\":\"hue\",\"count\":6},{\"user\":\"schedule\",\"count\":4},{\"user\":\"xinmeng.zhang\",\"count\":2}],\"totalCount\":34},{\"opType\":\"setTimes\",\"topUsers\":[{\"user\":\"schedule\",\"count\":1}],\"totalCount\":1},{\"opType\":\"open\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":4306},{\"user\":\"schedule\",\"count\":1070},{\"user\":\"fan.yang\",\"count\":862},{\"user\":\"spark\",\"count\":632},{\"user\":\"stream\",\"count\":567},{\"user\":\"root\",\"count\":18},{\"user\":\"xinmeng.zhang\",\"count\":3}],\"totalCount\":7458},{\"opType\":\"append\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":5999}],\"totalCount\":5999}]},{\"windowLenMs\":300000,\"ops\":[{\"opType\":\"getEZForPath\",\"topUsers\":[{\"user\":\"xinmeng.zhang\",\"count\":1}],\"totalCount\":1},{\"opType\":\"listCachePools\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":4}],\"totalCount\":4},{\"opType\":\"listStatus\",\"topUsers\":[{\"user\":\"schedule\",\"count\":3127},{\"user\":\"stream\",\"count\":1331},{\"user\":\"spark\",\"count\":872},{\"user\":\"nifi\",\"count\":174},{\"user\":\"root\",\"count\":80},{\"user\":\"oozie\",\"count\":25},{\"user\":\"hue\",\"count\":23},{\"user\":\"yarn\",\"count\":15},{\"user\":\"mapred\",\"count\":13},{\"user\":\"xinmeng.zhang\",\"count\":7}],\"totalCount\":5667},{\"opType\":\"*\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":115822},{\"user\":\"schedule\",\"count\":22134},{\"user\":\"root\",\"count\":17643},{\"user\":\"stream\",\"count\":13977},{\"user\":\"fan.yang\",\"count\":3195},{\"user\":\"spark\",\"count\":3128},{\"user\":\"nifi\",\"count\":943},{\"user\":\"hue\",\"count\":66},{\"user\":\"xinmeng.zhang\",\"count\":38},{\"user\":\"yarn\",\"count\":31}],\"totalCount\":177030},{\"opType\":\"delete\",\"topUsers\":[{\"user\":\"stream\",\"count\":4672},{\"user\":\"nifi\",\"count\":58},{\"user\":\"schedule\",\"count\":31},{\"user\":\"spark\",\"count\":12},{\"user\":\"root\",\"count\":6},{\"user\":\"hdfs\",\"count\":5},{\"user\":\"xinmeng.zhang\",\"count\":2}],\"totalCount\":4786},{\"opType\":\"setReplication\",\"topUsers\":[{\"user\":\"schedule\",\"count\":3}],\"totalCount\":3},{\"opType\":\"listCacheDirectives\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":4}],\"totalCount\":4},{\"opType\":\"getfileinfo\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":39110},{\"user\":\"root\",\"count\":17503},{\"user\":\"schedule\",\"count\":6576},{\"user\":\"fan.yang\",\"count\":1694},{\"user\":\"stream\",\"count\":994},{\"user\":\"nifi\",\"count\":460},{\"user\":\"hue\",\"count\":22},{\"user\":\"xinmeng.zhang\",\"count\":19},{\"user\":\"yarn\",\"count\":15},{\"user\":\"spark\",\"count\":14}],\"totalCount\":66408},{\"opType\":\"rename options=2\",\"topUsers\":[{\"user\":\"stream\",\"count\":533},{\"user\":\"hue\",\"count\":2}],\"totalCount\":535},{\"opType\":\"rename options=1\",\"topUsers\":[{\"user\":\"stream\",\"count\":1810}],\"totalCount\":1810},{\"opType\":\"rename\",\"topUsers\":[{\"user\":\"schedule\",\"count\":42},{\"user\":\"nifi\",\"count\":27},{\"user\":\"root\",\"count\":3}],\"totalCount\":72},{\"opType\":\"mkdirs\",\"topUsers\":[{\"user\":\"nifi\",\"count\":60},{\"user\":\"schedule\",\"count\":15},{\"user\":\"hue\",\"count\":6},{\"user\":\"xinmeng.zhang\",\"count\":4},{\"user\":\"stream\",\"count\":2}],\"totalCount\":87},{\"opType\":\"create\",\"topUsers\":[{\"user\":\"stream\",\"count\":6393},{\"user\":\"schedule\",\"count\":265},{\"user\":\"nifi\",\"count\":66},{\"user\":\"druid\",\"count\":14},{\"user\":\"spark\",\"count\":11},{\"user\":\"hdfs\",\"count\":5},{\"user\":\"root\",\"count\":2}],\"totalCount\":6756},{\"opType\":\"setPermission\",\"topUsers\":[{\"user\":\"nifi\",\"count\":58},{\"user\":\"schedule\",\"count\":12},{\"user\":\"hue\",\"count\":9},{\"user\":\"xinmeng.zhang\",\"count\":2}],\"totalCount\":81},{\"opType\":\"setTimes\",\"topUsers\":[{\"user\":\"schedule\",\"count\":3},{\"user\":\"root\",\"count\":1}],\"totalCount\":4},{\"opType\":\"open\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":43315},{\"user\":\"schedule\",\"count\":15024},{\"user\":\"stream\",\"count\":2469},{\"user\":\"fan.yang\",\"count\":1915},{\"user\":\"spark\",\"count\":1644},{\"user\":\"root\",\"count\":32},{\"user\":\"xinmeng.zhang\",\"count\":3}],\"totalCount\":64402},{\"opType\":\"append\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":19461}],\"totalCount\":19461}]},{\"windowLenMs\":1500000,\"ops\":[{\"opType\":\"getEZForPath\",\"topUsers\":[{\"user\":\"xinmeng.zhang\",\"count\":1},{\"user\":\"xue.wang\",\"count\":1}],\"totalCount\":2},{\"opType\":\"listCachePools\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":14}],\"totalCount\":14},{\"opType\":\"listStatus\",\"topUsers\":[{\"user\":\"schedule\",\"count\":39645},{\"user\":\"stream\",\"count\":4306},{\"user\":\"spark\",\"count\":3510},{\"user\":\"yixin.lu\",\"count\":1038},{\"user\":\"root\",\"count\":815},{\"user\":\"nifi\",\"count\":452},{\"user\":\"oozie\",\"count\":125},{\"user\":\"hue\",\"count\":91},{\"user\":\"anonymous\",\"count\":84},{\"user\":\"mapred\",\"count\":56}],\"totalCount\":50251},{\"opType\":\"*\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":676654},{\"user\":\"yixin.lu\",\"count\":282357},{\"user\":\"stream\",\"count\":128950},{\"user\":\"root\",\"count\":78936},{\"user\":\"schedule\",\"count\":77498},{\"user\":\"fan.yang\",\"count\":18527},{\"user\":\"spark\",\"count\":13919},{\"user\":\"xiaowei.li\",\"count\":8365},{\"user\":\"xue.wang\",\"count\":4321},{\"user\":\"nifi\",\"count\":2823}],\"totalCount\":1294421},{\"opType\":\"delete\",\"topUsers\":[{\"user\":\"stream\",\"count\":25725},{\"user\":\"nifi\",\"count\":172},{\"user\":\"schedule\",\"count\":48},{\"user\":\"spark\",\"count\":44},{\"user\":\"anonymous\",\"count\":28},{\"user\":\"root\",\"count\":24},{\"user\":\"hdfs\",\"count\":16},{\"user\":\"druid\",\"count\":10},{\"user\":\"yuhuan.yao\",\"count\":6},{\"user\":\"xinmeng.zhang\",\"count\":2}],\"totalCount\":26076},{\"opType\":\"setReplication\",\"topUsers\":[{\"user\":\"schedule\",\"count\":9},{\"user\":\"root\",\"count\":6},{\"user\":\"xiaowei.li\",\"count\":2}],\"totalCount\":17},{\"opType\":\"listCacheDirectives\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":14}],\"totalCount\":14},{\"opType\":\"getfileinfo\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":219938},{\"user\":\"yixin.lu\",\"count\":113049},{\"user\":\"root\",\"count\":76966},{\"user\":\"schedule\",\"count\":35449},{\"user\":\"fan.yang\",\"count\":7325},{\"user\":\"stream\",\"count\":3269},{\"user\":\"xiaowei.li\",\"count\":2962},{\"user\":\"xue.wang\",\"count\":1740},{\"user\":\"nifi\",\"count\":1090},{\"user\":\"sheng.xu\",\"count\":583}],\"totalCount\":462909},{\"opType\":\"rename options=2\",\"topUsers\":[{\"user\":\"stream\",\"count\":4897},{\"user\":\"hue\",\"count\":17},{\"user\":\"druid\",\"count\":8}],\"totalCount\":4922},{\"opType\":\"rename options=1\",\"topUsers\":[{\"user\":\"stream\",\"count\":4720}],\"totalCount\":4720},{\"opType\":\"rename\",\"topUsers\":[{\"user\":\"xiaowei.li\",\"count\":602},{\"user\":\"xue.wang\",\"count\":220},{\"user\":\"nifi\",\"count\":75},{\"user\":\"schedule\",\"count\":64},{\"user\":\"root\",\"count\":27},{\"user\":\"yuhuan.yao\",\"count\":6}],\"totalCount\":994},{\"opType\":\"mkdirs\",\"topUsers\":[{\"user\":\"nifi\",\"count\":129},{\"user\":\"hue\",\"count\":42},{\"user\":\"root\",\"count\":42},{\"user\":\"schedule\",\"count\":32},{\"user\":\"anonymous\",\"count\":28},{\"user\":\"xiaowei.li\",\"count\":19},{\"user\":\"druid\",\"count\":16},{\"user\":\"xue.wang\",\"count\":15},{\"user\":\"yixin.lu\",\"count\":4},{\"user\":\"xinmeng.zhang\",\"count\":4}],\"totalCount\":334},{\"opType\":\"create\",\"topUsers\":[{\"user\":\"stream\",\"count\":12590},{\"user\":\"xiaowei.li\",\"count\":617},{\"user\":\"schedule\",\"count\":399},{\"user\":\"xue.wang\",\"count\":220},{\"user\":\"nifi\",\"count\":126},{\"user\":\"root\",\"count\":52},{\"user\":\"spark\",\"count\":44},{\"user\":\"hdfs\",\"count\":42},{\"user\":\"druid\",\"count\":34},{\"user\":\"anonymous\",\"count\":14}],\"totalCount\":14147},{\"opType\":\"setPermission\",\"topUsers\":[{\"user\":\"nifi\",\"count\":149},{\"user\":\"hue\",\"count\":53},{\"user\":\"anonymous\",\"count\":28},{\"user\":\"root\",\"count\":22},{\"user\":\"schedule\",\"count\":20},{\"user\":\"xiaowei.li\",\"count\":7},{\"user\":\"xinmeng.zhang\",\"count\":2},{\"user\":\"xue.wang\",\"count\":2}],\"totalCount\":283},{\"opType\":\"setTimes\",\"topUsers\":[{\"user\":\"schedule\",\"count\":9},{\"user\":\"root\",\"count\":5},{\"user\":\"yuhuan.yao\",\"count\":1}],\"totalCount\":15},{\"opType\":\"open\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":217360},{\"user\":\"yixin.lu\",\"count\":179205},{\"user\":\"schedule\",\"count\":106545},{\"user\":\"stream\",\"count\":13759},{\"user\":\"fan.yang\",\"count\":11115},{\"user\":\"spark\",\"count\":6975},{\"user\":\"xiaowei.li\",\"count\":4116},{\"user\":\"xue.wang\",\"count\":2093},{\"user\":\"root\",\"count\":1024},{\"user\":\"sheng.xu\",\"count\":290}],\"totalCount\":542485},{\"opType\":\"append\",\"topUsers\":[{\"user\":\"hdfs\",\"count\":179930}],\"totalCount\":179930}]}]}",
+    "NumInMaintenanceLiveDataNodes" : 0,
+    "NumInMaintenanceDeadDataNodes" : 0,
+    "NumEnteringMaintenanceDataNodes" : 0
+  }, {
+    "name" : "java.nio:type=BufferPool,name=mapped",
+    "modelerType" : "sun.management.ManagementFactoryHelper$1",
+    "Name" : "mapped",
+    "MemoryUsed" : 31274,
+    "TotalCapacity" : 31274,
+    "Count" : 2,
+    "ObjectName" : "java.nio:type=BufferPool,name=mapped"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Par Survivor Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "Par Survivor Space",
+    "Type" : "HEAP",
+    "Valid" : true,
+    "CollectionUsage" : {
+      "committed" : 113377280,
+      "init" : 113377280,
+      "max" : 113377280,
+      "used" : 44811400
+    },
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdCount" : 0,
+    "MemoryManagerNames" : [ "ConcurrentMarkSweep", "ParNew" ],
+    "PeakUsage" : {
+      "committed" : 113377280,
+      "init" : 113377280,
+      "max" : 113377280,
+      "used" : 113377280
+    },
+    "Usage" : {
+      "committed" : 113377280,
+      "init" : 113377280,
+      "max" : 113377280,
+      "used" : 44811400
+    },
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdSupported" : true,
+    "UsageThresholdSupported" : false,
+    "ObjectName" : "java.lang:type=MemoryPool,name=Par Survivor Space"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=RetryCache.NameNodeRetryCache",
+    "modelerType" : "RetryCache.NameNodeRetryCache",
+    "tag.Context" : "rpc",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "CacheHit" : 1694,
+    "CacheCleared" : 0,
+    "CacheUpdated" : 840370737
+  }, {
+    "name" : "com.sun.management:type=DiagnosticCommand",
+    "modelerType" : "sun.management.DiagnosticCommandImpl"
+  }, {
+    "name" : "Hadoop:service=NameNode,name=RpcActivityForPort8020",
+    "modelerType" : "RpcActivityForPort8020",
+    "tag.port" : "8020",
+    "tag.Context" : "rpc",
+    "tag.NumOpenConnectionsPerUser" : "{\"nifi\":10,\"schedule\":26,\"stream\":37,\"spark\":2,\"fan.yang\":3,\"root\":5,\"hdfs\":26}",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "ReceivedBytes" : 851765481207,
+    "SentBytes" : 3332932065749,
+    "RpcQueueTimeNumOps" : 3232183243,
+    "RpcQueueTimeAvgTime" : 0.046638018200202226,
+    "RpcProcessingTimeNumOps" : 3232183243,
+    "RpcProcessingTimeAvgTime" : 9.912158746208291,
+    "RpcAuthenticationFailures" : 0,
+    "RpcAuthenticationSuccesses" : 0,
+    "RpcAuthorizationFailures" : 0,
+    "RpcAuthorizationSuccesses" : 8580340,
+    "RpcSlowCalls" : 0,
+    "RpcClientBackoff" : 0,
+    "NumOpenConnections" : 109,
+    "CallQueueLength" : 0,
+    "NumDroppedConnections" : 0
+  }, {
+    "name" : "Hadoop:service=NameNode,name=UgiMetrics",
+    "modelerType" : "UgiMetrics",
+    "tag.Context" : "ugi",
+    "tag.Hostname" : "pre-zboffline-002.pre.leyantech.com",
+    "LoginSuccessNumOps" : 0,
+    "LoginSuccessAvgTime" : 0.0,
+    "LoginFailureNumOps" : 0,
+    "LoginFailureAvgTime" : 0.0,
+    "GetGroupsNumOps" : 124923,
+    "GetGroupsAvgTime" : 22.0,
+    "RenewalFailuresTotal" : 0,
+    "RenewalFailures" : 0
+  }, {
+    "name" : "com.sun.management:type=HotSpotDiagnostic",
+    "modelerType" : "sun.management.HotSpotDiagnostic",
+    "DiagnosticOptions" : [ {
+      "name" : "HeapDumpBeforeFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpAfterFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpOnOutOfMemoryError",
+      "origin" : "VM_CREATION",
+      "value" : "true",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpPath",
+      "origin" : "VM_CREATION",
+      "value" : "/tmp/hdfs_hdfs-NAMENODE-a234775054dee501b9142e41ef40e8b4_pid2609.hprof",
+      "writeable" : true
+    }, {
+      "name" : "CMSAbortablePrecleanWaitMillis",
+      "origin" : "DEFAULT",
+      "value" : "100",
+      "writeable" : true
+    }, {
+      "name" : "CMSWaitDuration",
+      "origin" : "DEFAULT",
+      "value" : "2000",
+      "writeable" : true
+    }, {
+      "name" : "CMSTriggerInterval",
+      "origin" : "DEFAULT",
+      "value" : "-1",
+      "writeable" : true
+    }, {
+      "name" : "PrintGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCDetails",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCDateStamps",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCTimeStamps",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCID",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogramBeforeFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogramAfterFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogram",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "MinHeapFreeRatio",
+      "origin" : "DEFAULT",
+      "value" : "40",
+      "writeable" : true
+    }, {
+      "name" : "MaxHeapFreeRatio",
+      "origin" : "DEFAULT",
+      "value" : "70",
+      "writeable" : true
+    }, {
+      "name" : "PrintConcurrentLocks",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "UnlockCommercialFeatures",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    } ],
+    "ObjectName" : "com.sun.management:type=HotSpotDiagnostic"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=CMS Old Gen",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Name" : "CMS Old Gen",
+    "Type" : "HEAP",
+    "Valid" : true,
+    "CollectionUsage" : {
+      "committed" : 16045768704,
+      "init" : 16045768704,
+      "max" : 16045768704,
+      "used" : 3535396456
+    },
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdCount" : 0,
+    "MemoryManagerNames" : [ "ConcurrentMarkSweep" ],
+    "PeakUsage" : {
+      "committed" : 16045768704,
+      "init" : 16045768704,
+      "max" : 16045768704,
+      "used" : 11237694384
+    },
+    "Usage" : {
+      "committed" : 16045768704,
+      "init" : 16045768704,
+      "max" : 16045768704,
+      "used" : 4900660568
+    },
+    "UsageThreshold" : 0,
+    "UsageThresholdCount" : 0,
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdSupported" : true,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdSupported" : true,
+    "ObjectName" : "java.lang:type=MemoryPool,name=CMS Old Gen"
+  } ]
+}
