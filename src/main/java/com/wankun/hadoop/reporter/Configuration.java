@@ -25,6 +25,8 @@ public class Configuration {
       return Double.parseDouble(env);
     } else if (defaultValue instanceof Float) {
       return Float.parseFloat(env);
+    } else if (defaultValue instanceof Boolean) {
+      return Boolean.parseBoolean(env);
     } else
       return env;
   }
@@ -53,8 +55,20 @@ public class Configuration {
     return (Float) getConfig(name, defaultValue);
   }
 
+  public static Boolean getBoolean(String name, Boolean defaultValue) {
+    return (Boolean) getConfig(name, defaultValue);
+  }
+
+  public static int defaultPort() {
+    if (getBoolean("USE_PICKLED", false))
+      return 2004;
+    else
+      return 2003;
+  }
+
+  public static boolean usePickled = getBoolean("USE_PICKLED", false);
   public static String graphiteHost = get("GRAPHITE_HOST", "");
-  public static Integer graphitePort = getInteger("GRAPHITE_PORT", 2004);
+  public static Integer graphitePort = getInteger("GRAPHITE_PORT", defaultPort());
   public static String graphitePrefix = get("GRAPHITE_PREFIX", "hadoop");
 
   public static long period = getLong("PERIOD", 15L);
