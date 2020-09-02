@@ -1,10 +1,10 @@
 version: "2"
 
 services:
-  hadoop-graphite-exporter:
-    image: wankunde/hadoop-graphite-exporter:latest
+  hadoop-graphite-reporter:
+    image: wankunde/hadoop-graphite-reporter:latest
     restart: always
-    container_name: hadoop-graphite-exporter
+    container_name: hadoop-graphite-reporter
     volumes:
       - ./cluster.json:/etc/cluster.json
     network_mode: host
