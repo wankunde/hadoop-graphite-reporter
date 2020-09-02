@@ -1,0 +1,2 @@
+com.wankun.hadoop.reporter.collector.NameNodeCollector
+com.wankun.hadoop.reporter.collector.ResourceManagerCollector

@@ -1,0 +1,8 @@
+{
+  "NAMENODE": [
+    "http://localhost:50070/jmx"
+  ],
+  "RESOURCEMANAGER": [
+    "http://localhost:8088/jmx"
+  ]
+}
