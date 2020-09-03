@@ -1,6 +1,6 @@
 package com.wankun.hadoop.reporter.collector;
 
-import static com.wankun.hadoop.reporter.util.SinkUtil.name;
+import static com.wankun.hadoop.reporter.Metric.name;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -28,7 +28,7 @@ public class NameNodeCollector extends JmxCollector {
       String name = bean.getString("name");
       // a trick method to filter standby node
       if ("Hadoop:service=NameNode,name=FSNamesystem".equals(name)
-          && "active".equals(bean.getInteger("tag.HAState"))) {
+          && !"active".equals(bean.get("tag.HAState"))) {
         return Collections.EMPTY_LIST;
       }
 

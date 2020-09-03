@@ -1,6 +1,6 @@
 package com.wankun.hadoop.reporter.collector;
 
-import static com.wankun.hadoop.reporter.util.SinkUtil.name;
+import static com.wankun.hadoop.reporter.Metric.name;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
