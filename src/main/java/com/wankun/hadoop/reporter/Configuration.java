@@ -1,10 +1,5 @@
 package com.wankun.hadoop.reporter;
 
-import com.codahale.metrics.MetricRegistry;
-import com.google.common.collect.Maps;
-
-import java.util.Map;
-
 /**
  * @author kun.wan, <kun.wan@leyantech.com>
  * @date 2020-09-02.
@@ -73,7 +68,4 @@ public class Configuration {
 
   public static long period = getLong("PERIOD", 15L);
   public static int collectorPoolSize = getInteger("COLLECTOR_POOL_SIZE", 50);
-
-  public static MetricRegistry registry = new MetricRegistry();
-  public static Map<String, Long> metricsUpdateTime = Maps.newConcurrentMap();
 }

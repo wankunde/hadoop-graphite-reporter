@@ -4,7 +4,11 @@ import static com.wankun.hadoop.reporter.util.SinkUtil.name;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.codahale.metrics.MetricRegistry;
+import com.wankun.hadoop.reporter.Metric;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author kun.wan, <kun.wan@leyantech.com>
@@ -17,11 +21,17 @@ public class NameNodeCollector extends JmxCollector {
   }
 
   @Override
-  public MetricRegistry collect(JSONArray beans) {
-    MetricRegistry metrics = new MetricRegistry();
+  public List<Metric> collect(JSONArray beans) {
+    List<Metric> metrics = new ArrayList<>();
     for (int i = 0; i < beans.size(); i++) {
       JSONObject bean = beans.getJSONObject(i);
       String name = bean.getString("name");
+      // a trick method to filter standby node
+      if ("Hadoop:service=NameNode,name=FSNamesystem".equals(name)
+          && "active".equals(bean.getInteger("tag.HAState"))) {
+        return Collections.EMPTY_LIST;
+      }
+
       String host = bean.getString("tag.Hostname");
       if (name.equals("Hadoop:service=NameNode,name=FSNamesystem")) {
         String[] keys = {
@@ -59,10 +69,8 @@ public class NameNodeCollector extends JmxCollector {
             "StaleDataNodes",
             "TotalFiles"
         };
-        if ("active".equals(bean.getString("tag.HAState"))) {
-          for (String key : keys) {
-            metrics.gauge(name("FSNamesystem", host, key), () -> () -> bean.get(key));
-          }
+        for (String key : keys) {
+          metrics.add(new Metric(name("FSNamesystem", key), (Number) bean.get(key)));
         }
 
       } else if (name.equals("Hadoop:service=NameNode,name=NameNodeInfo")) {
@@ -82,7 +90,7 @@ public class NameNodeCollector extends JmxCollector {
             "NumberOfMissingBlocksWithReplicationFactorOne"
         };
         for (String key : keys) {
-          metrics.gauge(name("NameNodeInfo", host, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("NameNodeInfo", key), (Number) bean.get(key)));
         }
       } else if (name.startsWith("Hadoop:service=NameNode,name=RpcActivityFor")) {
         String port = bean.getString("tag.port");
@@ -105,7 +113,7 @@ public class NameNodeCollector extends JmxCollector {
             "NumDroppedConnections"
         };
         for (String key : keys) {
-          metrics.gauge(name("RpcActivity", host, port, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("RpcActivity", host, port, key), (Number) bean.get(key)));
         }
       } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020")) {
         String[] keys = {
@@ -167,7 +175,7 @@ public class NameNodeCollector extends JmxCollector {
             "GetFileInfoAvgTime"
         };
         for (String key : keys) {
-          metrics.gauge(name("RpcDetailedActivityForPort8020", host, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("RpcDetailedActivityForPort8020", host, key), (Number) bean.get(key)));
         }
       } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8022")) {
         String[] keys = {
@@ -195,7 +203,7 @@ public class NameNodeCollector extends JmxCollector {
             "VersionRequestAvgTime"
         };
         for (String key : keys) {
-          metrics.gauge(name("RpcDetailedActivityForPort8022", host, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("RpcDetailedActivityForPort8022", host, key), (Number) bean.get(key)));
         }
       } else if (name.startsWith("Hadoop:service=NameNode,name=NameNodeActivity")) {
         String[] keys = {
@@ -244,7 +252,7 @@ public class NameNodeCollector extends JmxCollector {
             "TotalFileOps"
         };
         for (String key : keys) {
-          metrics.gauge(name("NameNodeActivity", host, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("NameNodeActivity", host, key), (Number) bean.get(key)));
         }
       } else if (name.equals("Hadoop:service=NameNode,name=FSNamesystemState")) {
         String[] keys = {
@@ -276,7 +284,7 @@ public class NameNodeCollector extends JmxCollector {
             "NumEnteringMaintenanceDataNodes"
         };
         for (String key : keys) {
-          metrics.gauge(name("FSNamesystemState", host, key), () -> () -> bean.get(key));
+          metrics.add(new Metric(name("FSNamesystemState", host, key), (Number) bean.get(key)));
         }
       }
     }
