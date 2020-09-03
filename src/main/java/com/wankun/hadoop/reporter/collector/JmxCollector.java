@@ -2,8 +2,8 @@ package com.wankun.hadoop.reporter.collector;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
+import com.google.common.base.Strings;
 import com.wankun.hadoop.reporter.Configuration;
-import com.wankun.hadoop.reporter.HadoopGraphiteReporter;
 import com.wankun.hadoop.reporter.Metric;
 import com.wankun.hadoop.reporter.util.HttpClientUtil;
 import org.slf4j.Logger;
@@ -54,6 +54,34 @@ public abstract class JmxCollector implements Runnable {
       writeMetrics(metrics);
     } catch (Exception e) {
       logger.error("failed to collect metrics.", e);
+    }
+  }
+
+  public String name(String name, String... names) {
+    final StringBuilder builder = new StringBuilder();
+    if (!Strings.isNullOrEmpty(Configuration.graphitePrefix)) {
+      append(builder, Configuration.graphitePrefix);
+    }
+    append(builder, getName());
+    append(builder, name);
+    if (names != null) {
+      for (String s : names) {
+        append(builder, s);
+      }
+    }
+    return builder.toString();
+  }
+
+  private static void append(StringBuilder builder, String part) {
+    if (part != null && !part.isEmpty()) {
+      if (builder.length() > 0) {
+        builder.append('.');
+      }
+
+      while (part.indexOf('.') >= 0) {
+        part = part.replace('.', '-');
+      }
+      builder.append(part);
     }
   }
 }

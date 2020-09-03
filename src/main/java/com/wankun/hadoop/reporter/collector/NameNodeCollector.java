@@ -1,7 +1,5 @@
 package com.wankun.hadoop.reporter.collector;
 
-import static com.wankun.hadoop.reporter.Metric.name;
-
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.wankun.hadoop.reporter.Metric;
@@ -70,7 +68,10 @@ public class NameNodeCollector extends JmxCollector {
             "TotalFiles"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("FSNamesystem", key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("FSNamesystem", key), (Number) value));
+          }
         }
 
       } else if (name.equals("Hadoop:service=NameNode,name=NameNodeInfo")) {
@@ -90,7 +91,10 @@ public class NameNodeCollector extends JmxCollector {
             "NumberOfMissingBlocksWithReplicationFactorOne"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("NameNodeInfo", key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("NameNodeInfo", key), (Number) value));
+          }
         }
       } else if (name.startsWith("Hadoop:service=NameNode,name=RpcActivityFor")) {
         String port = bean.getString("tag.port");
@@ -113,7 +117,10 @@ public class NameNodeCollector extends JmxCollector {
             "NumDroppedConnections"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("RpcActivity", host, port, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("RpcActivity", host, port, key), (Number) value));
+          }
         }
       } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020")) {
         String[] keys = {
@@ -175,7 +182,10 @@ public class NameNodeCollector extends JmxCollector {
             "GetFileInfoAvgTime"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("RpcDetailedActivityForPort8020", host, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("RpcDetailedActivityForPort8020", host, key), (Number) value));
+          }
         }
       } else if (name.equals("Hadoop:service=NameNode,name=RpcDetailedActivityForPort8022")) {
         String[] keys = {
@@ -203,7 +213,10 @@ public class NameNodeCollector extends JmxCollector {
             "VersionRequestAvgTime"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("RpcDetailedActivityForPort8022", host, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("RpcDetailedActivityForPort8022", host, key), (Number) value));
+          }
         }
       } else if (name.startsWith("Hadoop:service=NameNode,name=NameNodeActivity")) {
         String[] keys = {
@@ -252,7 +265,10 @@ public class NameNodeCollector extends JmxCollector {
             "TotalFileOps"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("NameNodeActivity", host, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("NameNodeActivity", host, key), (Number) value));
+          }
         }
       } else if (name.equals("Hadoop:service=NameNode,name=FSNamesystemState")) {
         String[] keys = {
@@ -284,7 +300,10 @@ public class NameNodeCollector extends JmxCollector {
             "NumEnteringMaintenanceDataNodes"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("FSNamesystemState", host, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("FSNamesystemState", host, key), (Number) value));
+          }
         }
       }
     }

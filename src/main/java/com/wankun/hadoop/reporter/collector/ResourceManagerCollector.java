@@ -1,7 +1,5 @@
 package com.wankun.hadoop.reporter.collector;
 
-import static com.wankun.hadoop.reporter.Metric.name;
-
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.wankun.hadoop.reporter.Metric;
@@ -102,7 +100,10 @@ public class ResourceManagerCollector extends JmxCollector {
         }
         if (bean.get("tag.User") == null) {
           for (String key : keys) {
-            metrics.add(new Metric(name("QueueMetrics", queue, host, key), (Number)bean.get(key)));
+            Object value = bean.get(key);
+            if(value!=null){
+              metrics.add(new Metric(name("QueueMetrics", queue, host, key), (Number)value));
+            }
           }
         }
       } else if (name.startsWith("Hadoop:service=ResourceManager,name=RpcActivity")) {
@@ -125,7 +126,10 @@ public class ResourceManagerCollector extends JmxCollector {
             "NumDroppedConnections"
         };
         for (String key : keys) {
-          metrics.add(new Metric(name("RpcActivity", host, port, key), (Number) bean.get(key)));
+          Object value = bean.get(key);
+          if(value!=null){
+            metrics.add(new Metric(name("RpcActivity", host, port, key), (Number) value));
+          }
         }
       }
     }

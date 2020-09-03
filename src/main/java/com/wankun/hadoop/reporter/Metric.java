@@ -1,7 +1,5 @@
 package com.wankun.hadoop.reporter;
 
-import com.google.common.base.Strings;
-
 /**
  * @author kun.wan, <kun.wan@leyantech.com>
  * @date 2020-09-03.
@@ -49,32 +47,5 @@ public class Metric {
   @Override
   public String toString() {
     return name + " " + value + " " + ts + "%n";
-  }
-
-  public static String name(String name, String... names) {
-    final StringBuilder builder = new StringBuilder();
-    if (!Strings.isNullOrEmpty(Configuration.graphitePrefix)) {
-      append(builder, Configuration.graphitePrefix);
-    }
-    append(builder, name);
-    if (names != null) {
-      for (String s : names) {
-        append(builder, s);
-      }
-    }
-    return builder.toString();
-  }
-
-  private static void append(StringBuilder builder, String part) {
-    if (part != null && !part.isEmpty()) {
-      if (builder.length() > 0) {
-        builder.append('.');
-      }
-
-      while (part.indexOf('.') >= 0) {
-        part = part.replace('.', '-');
-      }
-      builder.append(part);
-    }
   }
 }
