@@ -57,7 +57,6 @@ public class HadoopGraphiteReporter implements Runnable {
           String url = urlObj.toString();
 
           try {
-            logger.info("add new Collector{}", url);
             Class<JmxCollector> collectorClass = collectorMap.get(service);
             if (collectorClass != null) {
               JmxCollector newCollector = collectorClass.newInstance();
