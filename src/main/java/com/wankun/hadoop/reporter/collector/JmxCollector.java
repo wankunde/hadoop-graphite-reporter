@@ -17,6 +17,7 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author kun.wan, <kun.wan@leyantech.com>
@@ -37,15 +38,21 @@ public abstract class JmxCollector implements Runnable {
   public abstract List<Metric> collect(JSONArray beans);
 
   public void writeMetrics(Metric... metrics) throws IOException {
-    writeMetrics(Arrays.asList(metrics));
+    writeMetrics(Arrays.asList(metrics), false);
   }
 
-  public void writeMetrics(List<Metric> metrics) throws IOException {
+  public void writeMetrics(List<Metric> metrics, boolean filterZero) throws IOException {
     if (metrics != null && metrics.size() > 0) {
+      AtomicInteger num = new AtomicInteger();
       Socket socket = new Socket(Configuration.graphiteHost, Configuration.graphitePort);
       PrintWriter writer = new PrintWriter(socket.getOutputStream(), false);
-      metrics.stream().filter(metric -> metric.getValue().doubleValue() != 0)
-          .forEach(metric -> writer.printf(metric.toString()));
+      metrics.stream().filter(metric -> !filterZero || metric.getValue().doubleValue() != 0)
+              .forEach(metric -> {
+                writer.printf(metric.toString());
+                if (num.incrementAndGet() % 100 == 0) {
+                  writer.flush();
+                }
+              });
       writer.flush();
       writer.close();
       socket.close();
@@ -64,7 +71,7 @@ public abstract class JmxCollector implements Runnable {
       JSONArray beans = JSON.parseObject(response).getJSONArray("beans");
       List<Metric> metrics = collect(beans);
       long parseTime = stopwatch.elapsed(TimeUnit.MILLISECONDS);
-      writeMetrics(metrics);
+      writeMetrics(metrics, true);
       long sinkTime = stopwatch.elapsed(TimeUnit.MILLISECONDS);
       writeMetrics(
           new Metric(name(host, port, "httpTime"), httpTime),
