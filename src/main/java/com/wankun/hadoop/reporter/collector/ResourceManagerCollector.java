@@ -27,7 +27,10 @@ public class ResourceManagerCollector extends JmxCollector {
       String name = bean.getString("name");
       // a trick method to filter standby node
       if ("Hadoop:service=ResourceManager,name=QueueMetrics,q0=root".equals(name)
-          && bean.getInteger("running_0") == 0) {
+          && bean.getInteger("running_0") == 0
+          && bean.getInteger("running_60") == 0
+          && bean.getInteger("running_300") == 0
+          && bean.getInteger("running_1440") == 0) {
         return Collections.EMPTY_LIST;
       }
 

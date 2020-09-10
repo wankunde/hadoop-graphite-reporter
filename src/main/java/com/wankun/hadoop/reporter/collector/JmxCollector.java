@@ -49,7 +49,7 @@ public abstract class JmxCollector implements Runnable {
       metrics.stream().filter(metric -> !filterZero || metric.getValue().doubleValue() != 0)
               .forEach(metric -> {
                 writer.printf(metric.toString());
-                if (num.incrementAndGet() % 100 == 0) {
+                if (num.incrementAndGet() % 200 == 0) {
                   writer.flush();
                 }
               });
@@ -76,7 +76,8 @@ public abstract class JmxCollector implements Runnable {
       writeMetrics(
           new Metric(name(host, port, "httpTime"), httpTime),
           new Metric(name(host, port, "parseTime"), parseTime - httpTime),
-          new Metric(name(host, port, "sinkTime"), sinkTime - parseTime));
+          new Metric(name(host, port, "sinkTime"), sinkTime - parseTime),
+          new Metric(name(host, port, "metricsSize"), metrics.size()));
     } catch (Exception e) {
       logger.error("failed to collect metrics.", e);
     }
